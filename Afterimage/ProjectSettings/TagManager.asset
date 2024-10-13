@@ -3,12 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CaptureEventTrigger
+  - GrabInteractableItem
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Event Trigger
   - Water
   - UI
   - 

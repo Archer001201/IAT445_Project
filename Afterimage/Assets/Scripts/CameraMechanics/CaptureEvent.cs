@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using PhotoAlbum;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -12,7 +13,7 @@ namespace CameraMechanics
         public CaptureZone captureZone;
         public bool allKeyObjectsPlaced;
         public bool noExtraObjectsPlaced = true;
-
+        
         private MeshRenderer meshRenderer;
         private readonly List<GameObject> keyObjectList = new();
 

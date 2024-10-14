@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1024772216258267473}
   m_Layer: 3
   m_Name: Capture Event Trigger
-  m_TagString: Untagged
+  m_TagString: CaptureEventTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
   onFinishedEvent:
     m_PersistentCalls:
       m_Calls: []
-  zoneList: []
-  captureZone: {fileID: 0}
   allKeyObjectsPlaced: 0
   noExtraObjectsPlaced: 1
+  placementList: []
+  captureZone: {fileID: 0}

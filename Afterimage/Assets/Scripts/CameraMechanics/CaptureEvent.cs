@@ -1,18 +1,19 @@
 using System;
 using System.Collections.Generic;
-using PhotoAlbum;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 namespace CameraMechanics
 {
     public class CaptureEvent : MonoBehaviour
     {
         public UnityEvent onFinishedEvent;
-        public List<PlacementZone> zoneList;
-        public CaptureZone captureZone;
         public bool allKeyObjectsPlaced;
         public bool noExtraObjectsPlaced = true;
+        
+        [HideInInspector] public List<PlacementZone> placementList;
+        [HideInInspector] public CaptureZone captureZone;
         
         private MeshRenderer meshRenderer;
         private readonly List<GameObject> keyObjectList = new();
@@ -27,22 +28,22 @@ namespace CameraMechanics
 
         private void Start()
         {
-            if (zoneList.Count > 0)
+            if (placementList.Count > 0)
             {
-                foreach (var zone in zoneList)
+                foreach (var zone in placementList)
                 {
-                    zone.captureEvent = this;
-                    keyObjectList.Add(zone.target);
+                    foreach (var tar in zone.targetObjectList)
+                    {
+                        keyObjectList.Add(tar);
+                    }
                 }
             }
             else allKeyObjectsPlaced = true;
-
-            captureZone.captureEvent = this;
         }
 
         public void UpdateKeyObjectsStatus()
         {
-            foreach (var zone in zoneList)
+            foreach (var zone in placementList)
             {
                 if (!zone.isPlaced)
                 {
@@ -71,7 +72,7 @@ namespace CameraMechanics
 
         private void DisableCaptureEvent()
         {
-            foreach (var zone in zoneList)
+            foreach (var zone in placementList)
             {
                 zone.gameObject.SetActive(false);
             }

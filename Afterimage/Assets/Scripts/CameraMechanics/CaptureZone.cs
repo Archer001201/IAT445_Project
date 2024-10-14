@@ -15,6 +15,8 @@ namespace CameraMechanics
         {
             meshRenderer = GetComponent<MeshRenderer>();
             meshRenderer.enabled = false;
+            
+            captureEvent.captureZone = this;
         }
 
         private void OnTriggerEnter(Collider other)
@@ -22,7 +24,7 @@ namespace CameraMechanics
             if (other.CompareTag("GrabInteractableItem"))
             {
                 objectList.Add(other.gameObject);
-                captureEvent.UpdateExtraObjectsStatus();
+                if (captureEvent != null) captureEvent.UpdateExtraObjectsStatus();
             }
         }
 

@@ -957,8 +957,8 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 2
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -3047,6 +3047,11 @@ PrefabInstance:
       objectReference: {fileID: 202364688}
     - target: {fileID: 4924506573850889901, guid: ad818c36731146e994540a1896ad8f24,
         type: 3}
+      propertyPath: m_ValidColorGradient.atime0
+      value: 32768
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924506573850889901, guid: ad818c36731146e994540a1896ad8f24,
+        type: 3}
       propertyPath: m_ValidColorGradient.key0.b
       value: 0
       objectReference: {fileID: 0}
@@ -3059,6 +3064,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ValidColorGradient.key0.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924506573850889901, guid: ad818c36731146e994540a1896ad8f24,
+        type: 3}
+      propertyPath: m_ValidColorGradient.key1.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924506573850889901, guid: ad818c36731146e994540a1896ad8f24,
+        type: 3}
+      propertyPath: m_ValidColorGradient.key1.g
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4924506573850889901, guid: ad818c36731146e994540a1896ad8f24,
         type: 3}
@@ -3194,7 +3209,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7fb6ed9a1d5d4c94a7eaf7491a0cb1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rayOrigin: {fileID: 3881409846907809176}
   rayDistance: 1
   hoverUI: {fileID: 0}
   targetTag: PhotoFilm
@@ -3396,7 +3410,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7fb6ed9a1d5d4c94a7eaf7491a0cb1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rayOrigin: {fileID: 3921468432820449555}
   rayDistance: 1
   hoverUI: {fileID: 0}
   targetTag: PhotoFilm

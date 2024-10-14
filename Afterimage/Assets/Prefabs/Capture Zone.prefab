@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2184297723512790902}
   - component: {fileID: 3103716451214536600}
   - component: {fileID: 2673676657690334982}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Capture Zone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

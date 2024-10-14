@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2842338685280122053}
   - component: {fileID: 3949409274603042581}
   - component: {fileID: 4756469211734758869}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Placement Zone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,6 +118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 398d9e5076abf4134a1fbc7c16fa231e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  isPlaced: 0
+  targetObjectList: []
   captureEvent: {fileID: 0}
+  isPlaced: 0

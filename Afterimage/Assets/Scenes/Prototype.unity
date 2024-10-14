@@ -12633,7 +12633,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9160089310876675538, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 907370019}
   m_SourcePrefab: {fileID: 100100000, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
 --- !u!143 &907370014 stripped
 CharacterController:
@@ -12647,6 +12651,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 907370013}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &907370016 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6045481230268494804, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 907370013}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4253f32900bcc4d499d675566142ded0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &907370017 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 19064736505062540, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 907370013}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907370018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &907370018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9160089310876675538, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 907370013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &907370019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907370018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1a1316325cfe4913aab8daddfe52459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rayInteractor: {fileID: 907370017}
+  directInteractor: {fileID: 907370016}
 --- !u!1001 &909206389
 PrefabInstance:
   m_ObjectHideFlags: 0

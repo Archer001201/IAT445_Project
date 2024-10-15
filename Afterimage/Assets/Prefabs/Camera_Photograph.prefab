@@ -300,7 +300,9 @@ MonoBehaviour:
   eventAndMaterial:
     captureEvent: {fileID: 0}
     material: {fileID: 0}
+    isLocked: 0
   checkMark: {fileID: 7660529247890352791}
+  defaultMaterial: {fileID: 2100000, guid: 924dc49e7ce234002ae94fddac227f5b, type: 2}
 --- !u!65 &7517020735987093956
 BoxCollider:
   m_ObjectHideFlags: 0

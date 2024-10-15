@@ -21,6 +21,7 @@ namespace Interactor
             interactionManager = directInteractor.interactionManager;
             
             rayInteractor.selectEntered.AddListener(OnRaySelectEntered);
+            directInteractor.selectExited.AddListener(OnDirectSelectExited);
         }
 
         private void OnRaySelectEntered(SelectEnterEventArgs args)
@@ -37,9 +38,12 @@ namespace Interactor
             var grabInteractable = grabbedObject.GetComponent<XRGrabInteractable>();
             if (grabInteractable != null && directInteractor != null)
             {
-                interactionManager.SelectEnter(directInteractor as IXRSelectInteractor, grabInteractable as IXRSelectInteractable);
+                interactionManager.SelectEnter(directInteractor as IXRSelectInteractor, grabInteractable);
             }
-            
+        }
+        
+        private void OnDirectSelectExited(SelectExitEventArgs args)
+        {
             rayInteractor.allowSelect = true;
         }
     }

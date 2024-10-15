@@ -10,10 +10,11 @@ namespace InteractableItem
         public GameObject targetObject;
         public Transform attachTransform;
 
-        private void OnCollisionEnter(Collision other)
+        private void OnTriggerEnter(Collider other)
         {
             if (other.gameObject != targetObject) return;
-            other.transform.position = attachTransform.position;
+            var newPosition = attachTransform.position;
+            other.transform.position = newPosition;
             onFinishedEvent.Invoke();
         }
     }

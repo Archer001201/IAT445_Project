@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2602003790046449125}
   - component: {fileID: 3432253760872915969}
   - component: {fileID: 5291912081204234581}
+  - component: {fileID: 5894401756083174123}
   m_Layer: 0
   m_Name: GameCamera
   m_TagString: GrabInteractableItem
@@ -65,7 +66,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &7034349357434453890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,7 +384,28 @@ MonoBehaviour:
   localRotationOffset: {x: 0, y: 0, z: 0, w: 0}
   allowAttach: 1
   playerCollider: {fileID: 0}
-  itemCollider: {fileID: 7573644518649756711}
+  itemCollider: {fileID: 5894401756083174123}
+--- !u!65 &5894401756083174123
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2841651613546128856}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.15, y: 0.12, z: 0.15}
+  m_Center: {x: 0, y: 0.06, z: 0}
 --- !u!1 &6384308563352841525
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,7 +545,6 @@ GameObject:
   - component: {fileID: 5457203525378460651}
   - component: {fileID: 4862081669673988557}
   - component: {fileID: 3565156206995607929}
-  - component: {fileID: 7573644518649756711}
   - component: {fileID: 3999281325811453246}
   m_Layer: 0
   m_Name: Camera
@@ -597,27 +618,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7573644518649756711
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6649656978245584990}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.16246319, y: 0.11664957, z: 0.16758469}
-  m_Center: {x: 0.000000104344814, y: 0.05861218, z: -0.0033421365}
 --- !u!114 &3999281325811453246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14017,7 +14017,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1104
+  m_VersionIndex: 1122
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []

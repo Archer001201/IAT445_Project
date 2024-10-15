@@ -296,7 +296,6 @@ MonoBehaviour:
   shutterSfx: {fileID: 8300000, guid: 7a218e87083ff480392e1efe09771f04, type: 3}
   beepSfx: {fileID: 8300000, guid: 2a5b3f61e995e4652972575ac72aa277, type: 3}
   virtualCamera: {fileID: 5316712106309735860}
-  screenOutliner: {fileID: 6650886475066682108}
   isGrabbing: 0
   captureEvent: {fileID: 0}
 --- !u!82 &3432253760872915969
@@ -14045,7 +14044,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1149
+  m_VersionIndex: 1158
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -14067,7 +14066,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &156449285111542651
 Transform:
   m_ObjectHideFlags: 0

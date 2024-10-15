@@ -57,13 +57,15 @@ namespace CameraMechanics
 
         public void UpdateExtraObjectsStatus()
         {
-            if (captureZone == null) return;
-            foreach (var obj in captureZone.objectList)
+            if (captureZone != null)
             {
-                if (!keyObjectList.Contains(obj))
+                foreach (var obj in captureZone.objectList)
                 {
-                    noExtraObjectsPlaced = false;
-                    return;
+                    if (!keyObjectList.Contains(obj))
+                    {
+                        noExtraObjectsPlaced = false;
+                        return;
+                    }
                 }
             }
 
@@ -72,12 +74,15 @@ namespace CameraMechanics
 
         private void DisableCaptureEvent()
         {
-            foreach (var zone in placementList)
+            if (placementList.Count > 0)
             {
-                zone.gameObject.SetActive(false);
+                foreach (var zone in placementList)
+                {
+                    zone.gameObject.SetActive(false);
+                }
             }
             
-            captureZone.gameObject.SetActive(false);
+            if (captureZone != null) captureZone.gameObject.SetActive(false);
             
             gameObject.SetActive(false);
         }

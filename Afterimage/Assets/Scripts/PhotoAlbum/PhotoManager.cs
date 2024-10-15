@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace PhotoAlbum
 {
     public class PhotoManager : MonoBehaviour
     {
-        public List<CaptureEventAndMaterial> levelOne;
+        public List<CaptureEventAndMaterial> levelBedroom;
         public List<GameObject> photos;
 
         private void Start()
@@ -18,11 +19,11 @@ namespace PhotoAlbum
         {
             for (var i = 0; i < photos.Count; i++)
             {
-                if (i < levelOne.Count)
+                if (i < levelBedroom.Count)
                 {
                     photos[i].transform.parent.gameObject.SetActive(true);
                     var film = photos[i].GetComponent<PhotoFilm>();
-                    film.eventAndMaterial = levelOne[i]; 
+                    film.eventAndMaterial = levelBedroom[i]; 
                     film.ResetPhotoFilm();
                 }
                 else

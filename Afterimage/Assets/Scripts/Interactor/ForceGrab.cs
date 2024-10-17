@@ -22,6 +22,7 @@ namespace Interactor
             
             rayInteractor.selectEntered.AddListener(OnRaySelectEntered);
             directInteractor.selectExited.AddListener(OnDirectSelectExited);
+            rayInteractor.selectExited.AddListener(OnRaySelectExited);
         }
 
         private void OnRaySelectEntered(SelectEnterEventArgs args)
@@ -43,6 +44,11 @@ namespace Interactor
         }
         
         private void OnDirectSelectExited(SelectExitEventArgs args)
+        {
+            rayInteractor.allowSelect = true;
+        }
+        
+        private void OnRaySelectExited(SelectExitEventArgs args)
         {
             rayInteractor.allowSelect = true;
         }

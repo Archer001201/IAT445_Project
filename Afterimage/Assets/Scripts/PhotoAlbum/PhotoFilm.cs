@@ -1,11 +1,12 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace PhotoAlbum
 {
     public class PhotoFilm : MonoBehaviour
     {
-        public CaptureEventAndMaterial eventAndMaterial;
+        [FormerlySerializedAs("eventAndMaterial")] public CaptureEventData eventData;
         public GameObject checkMark;
         public Material defaultMaterial;
 
@@ -19,15 +20,15 @@ namespace PhotoAlbum
         public void ResetPhotoFilm()
         {
             checkMark.SetActive(false);
-            meshRenderer.material = !eventAndMaterial.isLocked ? eventAndMaterial.material : defaultMaterial;
-            if (eventAndMaterial.captureEvent != null)
+            meshRenderer.material = !eventData.isLocked ? eventData.material : defaultMaterial;
+            if (eventData.captureEvent != null)
             {
-                eventAndMaterial.captureEvent.onFinishedEvent.AddListener(ActivateCheckMark);
+                eventData.captureEvent.onFinishedEvent.AddListener(ActivateCheckMark);
             }
 
-            if (eventAndMaterial.isLocked && eventAndMaterial.unlockEvent != null)
+            if (eventData.isLocked && eventData.unlockEvent != null)
             {
-                eventAndMaterial.unlockEvent.onFinishedEvent.AddListener(UnlockPhoto);
+                eventData.unlockEvent.onFinishedEvent.AddListener(UnlockPhoto);
             }
         }
 
@@ -38,8 +39,8 @@ namespace PhotoAlbum
 
         public void UnlockPhoto()
         {
-            eventAndMaterial.isLocked = false;
-            meshRenderer.material = !eventAndMaterial.isLocked ? eventAndMaterial.material : defaultMaterial;
+            eventData.isLocked = false;
+            meshRenderer.material = !eventData.isLocked ? eventData.material : defaultMaterial;
         }
     }
 }

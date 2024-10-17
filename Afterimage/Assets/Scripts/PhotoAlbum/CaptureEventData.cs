@@ -1,11 +1,12 @@
 using System;
+using System.Collections.Generic;
 using CameraMechanics;
 using UnityEngine;
 
 namespace PhotoAlbum
 {
     [Serializable]
-    public class CaptureEventAndMaterial
+    public class CaptureEventData
     {
         public CaptureEvent captureEvent;
         public Material material;

@@ -34,6 +34,8 @@ namespace Interactor
 
         private void TransferControlToDirectInteractor(GameObject grabbedObject)
         {
+            if (!grabbedObject.CompareTag("GrabInteractableItem")) return;
+            
             rayInteractor.allowSelect = false;
 
             var grabInteractable = grabbedObject.GetComponent<XRGrabInteractable>();

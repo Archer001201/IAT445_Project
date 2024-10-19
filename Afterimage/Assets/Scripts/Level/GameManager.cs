@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,18 +8,24 @@ namespace Level
     public class GameManager : MonoBehaviour
     {
         public bool playInEditor;
-        
-        public string startScene;
+        public int currentSceneIndex;
+        public List<string> sceneList;
         
         private void Awake()
         {
             if (playInEditor) return;
-            AddScene(startScene);
+            SceneManager.LoadScene(sceneList[currentSceneIndex], LoadSceneMode.Additive);
         }
 
-        public void AddScene(string sceneName)
+        public void AddNextScene()
         {
-            SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+            currentSceneIndex++;
+            SceneManager.LoadSceneAsync(sceneList[currentSceneIndex], LoadSceneMode.Additive);
+        }
+
+        public void RemovePreviousScene()
+        {
+            SceneManager.UnloadSceneAsync(sceneList[currentSceneIndex - 1]);
         }
     }
 }

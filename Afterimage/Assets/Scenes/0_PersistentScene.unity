@@ -2807,7 +2807,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playInEditor: 1
-  startScene: Bedroom_Prototype
+  currentSceneIndex: 0
+  sceneList:
+  - Bedroom_Prototype
+  - Test_1
 --- !u!1001 &1688320934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3189,7 +3192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08503cb4142e14757b9e39cad902b5d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allowAttach: 1
+  allowAttach: 0
   gameCamera: {fileID: 647266233}
   album: {fileID: 418039066}
 --- !u!1001 &1968955784

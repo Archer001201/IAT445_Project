@@ -8,6 +8,8 @@ TagManager:
   - GrabInteractableItem
   - PhotoFilm
   - LevelDataManager
+  - GlassesTrigger
+  - CameraAndAlbum
   layers:
   - Default
   - TransparentFX

@@ -12,13 +12,17 @@ namespace CameraMechanics
         public Collider playerCollider;
         public Collider itemCollider;
         
-        private bool isGrabbed;
-        private bool isCarried;
-        private Rigidbody rb;
+        protected bool isGrabbed;
+        protected bool isCarried;
+        protected Rigidbody rb;
 
         private void Awake()
         {
             rb = GetComponent<Rigidbody>();
+
+            cameraTransform = GameObject.FindWithTag("MainCamera").transform;
+            playerCollider = GameObject.FindWithTag("Player").GetComponent<Collider>();
+            itemCollider = GetComponent<Collider>();
         }
 
         private void Start()
@@ -41,7 +45,7 @@ namespace CameraMechanics
             transform.rotation = targetRotation;
         }
 
-        private void OnCollisionEnter(Collision other)
+        protected virtual void OnCollisionEnter(Collision other)
         {
             if (!allowAttach) return;
             
@@ -51,7 +55,7 @@ namespace CameraMechanics
             rb.isKinematic = true;
         }
 
-        public void SetGrabStatus(bool result)
+        public virtual void SetGrabStatus(bool result)
         {
             if (!allowAttach) return;
             

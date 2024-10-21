@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5894401756083174123}
   m_Layer: 0
   m_Name: GameCamera
-  m_TagString: GrabInteractableItem
+  m_TagString: CameraAndAlbum
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraTransform: {fileID: 0}
-  positionOffset: {x: 0.2, y: 0, z: 0}
+  positionOffset: {x: 0.3, y: 0, z: 0}
   localRotationOffset: {x: 0, y: 0, z: 0, w: 0}
   allowAttach: 1
   playerCollider: {fileID: 0}
@@ -14044,7 +14044,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1158
+  m_VersionIndex: 1164
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []

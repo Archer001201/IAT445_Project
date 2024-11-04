@@ -27916,7 +27916,7 @@ GameObject:
   - component: {fileID: 1836224783}
   - component: {fileID: 1836224782}
   - component: {fileID: 1836224781}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -15,12 +15,12 @@ namespace PhotoAlbum
 
         private void Start()
         {
-            AssignEventAndMaterial();
+            // AssignEventAndMaterial();
         }
 
-        public void AssignEventAndMaterial()
+        public void AssignEventAndMaterial(LevelDataManager levelData)
         {
-            levelDataManager = GameObject.FindWithTag("LevelDataManager").GetComponent<LevelDataManager>();
+            levelDataManager = levelData;
             captureEvents = levelDataManager.captureEvents;
             
             for (var i = 0; i < photos.Count; i++)

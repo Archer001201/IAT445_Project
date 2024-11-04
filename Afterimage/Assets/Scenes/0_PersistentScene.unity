@@ -2821,10 +2821,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf7ae100c1f24d8d85357d01c01b5a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playInEditor: 0
+  playInEditor: 1
   currentSceneIndex: 0
-  sceneList:
-  - Livingroom_Prototype
+  sceneList: []
 --- !u!1001 &1688320934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3275,7 +3274,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

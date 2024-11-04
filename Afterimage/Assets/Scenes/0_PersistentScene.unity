@@ -2824,8 +2824,9 @@ MonoBehaviour:
   playInEditor: 0
   currentSceneIndex: 0
   sceneList:
-  - Bedroom_Prototype
+  - Bedroom
   - Livingroom_Prototype
+  - Bedroom_Prototype
 --- !u!1001 &1688320934
 PrefabInstance:
   m_ObjectHideFlags: 0

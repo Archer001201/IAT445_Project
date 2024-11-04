@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/0_PersistentScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/Bedroom.unity
+    guid: f56688067c07d58468c1466deda0d679
+  - enabled: 1
     path: Assets/Scenes/Bedroom_Prototype.unity
     guid: 4dc8fc83d1d95453c8cf195b526fc33a
   - enabled: 1

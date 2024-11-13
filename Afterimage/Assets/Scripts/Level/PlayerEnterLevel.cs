@@ -18,6 +18,7 @@ namespace Level
 
             if(lastScene != string.Empty) SceneManager.UnloadSceneAsync(lastScene);
             GameObject.Find("PhotoManager").GetComponent<PhotoManager>().AssignEventAndMaterial(levelDataManager);
+            // Debug.Log(GameObject.Find("PhotoManager").name);
             onEnterEvent?.Invoke();
             gameObject.SetActive(false);
         }

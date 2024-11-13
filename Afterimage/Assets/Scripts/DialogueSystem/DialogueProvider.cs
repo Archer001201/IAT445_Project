@@ -10,6 +10,11 @@ namespace DialogueSystem
         public bool triggerOnce = true;
         public List<DialoguePiece> dialoguePieces;
 
+        private void Awake()
+        {
+            GetComponent<MeshRenderer>().enabled = false;   
+        }
+
         private void OnTriggerEnter(Collider other)
         {
             if (!other.CompareTag("Player")) return;

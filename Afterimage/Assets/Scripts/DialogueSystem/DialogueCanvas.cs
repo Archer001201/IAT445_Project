@@ -54,7 +54,7 @@ namespace DialogueSystem
             locomotion.SetMovement(false);
             foreach (var piece in pieces)
             {
-                yield return new WaitForSeconds(0.5f);
+                // yield return new WaitForSeconds(0.5f);
                 contentText.text = piece.content;
                 audioSource.clip = piece.audioClip;
                 audioSource.Play();

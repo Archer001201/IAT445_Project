@@ -1893,10 +1893,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1900811933}
     m_Modifications:
-    - target: {fileID: 1767192439, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 767
-      objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
       propertyPath: m_Name
@@ -1962,11 +1958,6 @@ PrefabInstance:
       propertyPath: photoAlbum
       value: 
       objectReference: {fileID: 418039066}
-    - target: {fileID: 4174955288761791031, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5810862926238742791, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
       propertyPath: hoverUI
@@ -1977,11 +1968,21 @@ PrefabInstance:
       propertyPath: hoverUI
       value: 
       objectReference: {fileID: 301025678}
-    - target: {fileID: 8698175557756253833, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
+    - target: {fileID: 7980899264544846637, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
-      propertyPath: m_Color.a
-      value: 0.23529412
+      propertyPath: moveComponents.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7980899264544846637, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
+        type: 3}
+      propertyPath: moveComponents.Array.data[0]
+      value: 
+      objectReference: {fileID: 907370017}
+    - target: {fileID: 7980899264544846637, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
+        type: 3}
+      propertyPath: moveComponents.Array.data[1]
+      value: 
+      objectReference: {fileID: 907370016}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1996,6 +1997,18 @@ CharacterController:
 --- !u!4 &907370015 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1767192434, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 907370013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &907370016 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2190828208922718286, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 907370013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &907370017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 58445280694286476, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
     type: 3}
   m_PrefabInstance: {fileID: 907370013}
   m_PrefabAsset: {fileID: 0}
@@ -2834,9 +2847,9 @@ MonoBehaviour:
   playInEditor: 0
   currentSceneIndex: 0
   sceneList:
+  - Bedroom_Prototype
   - Bedroom
   - Livingroom_Prototype
-  - Bedroom_Prototype
 --- !u!1001 &1688320934
 PrefabInstance:
   m_ObjectHideFlags: 0

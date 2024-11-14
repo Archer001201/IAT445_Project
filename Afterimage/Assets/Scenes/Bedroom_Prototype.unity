@@ -29925,7 +29925,7 @@ PrefabInstance:
     - target: {fileID: 2197820454890622371, guid: 35c1954c22aa6441198b42923132252b,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5104624530361158042, guid: 35c1954c22aa6441198b42923132252b,
         type: 3}
@@ -29991,6 +29991,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5862740890034810331, guid: 35c1954c22aa6441198b42923132252b,
+        type: 3}
+      propertyPath: lastScene
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5862740890034810331, guid: 35c1954c22aa6441198b42923132252b,
         type: 3}

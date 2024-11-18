@@ -9,7 +9,6 @@ namespace CameraMechanics
         public Quaternion localRotationOffset;
         // public float smoothSpeed = 5f;
         public bool allowAttach = true;
-        public bool playInEditor;
         public Collider playerCollider;
         public Collider itemCollider;
         
@@ -71,12 +70,6 @@ namespace CameraMechanics
                 rb.useGravity = true;
                 rb.isKinematic = false;
             }
-        }
-
-        public void SetAllowAttach(bool isAllowed)
-        {
-            if (playInEditor) return;
-            allowAttach = isAllowed;
         }
     }
 }

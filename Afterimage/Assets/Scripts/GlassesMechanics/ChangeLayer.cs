@@ -9,7 +9,7 @@ namespace GlassesMechanics
         public void LayerChange()
         {
             gameObject.layer = targetLayer;
-            for (var i = 0; i < transform.childCount-1; i++)
+            for (var i = 0; i < transform.childCount; i++)
             {
                 var child = transform.GetChild(i);
                 child.gameObject.layer = targetLayer;

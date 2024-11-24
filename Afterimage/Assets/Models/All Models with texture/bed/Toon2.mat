@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8135738571401097974
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toon2
+  m_Shader: {fileID: 4800000, guid: 60e29b7951f20da47b11861d166b7036, type: 3}
+  m_Parent: {fileID: 2100000, guid: 4c388947390a703459f0a6f0bce9ee5d, type: 2}
+  m_ModifiedSerializedProperties: 24
+  m_ValidKeywords:
+  - _DIFFUSEWARPAFFECTHALFTONE_ON
+  - _OUTLINETYPE_NORMAL
+  - _OVERLAYMODE1_NONE
+  - _OVERLAYMODE_HAFTONE
+  - _RIMSPLITCOLOR_NOSPLIT
+  - _USEADDITIONALLIGHTSDIFFUSE_ON
+  - _USEDYNAMICOUTLINE_ON
+  - _USEENVIRONMENTREFLETION_ON
+  - _USEHATCHINGCONSTANTSCALE_ON
+  - _USELIGHTRAMP_STEP
+  - _USEPURESKETCH_ON
+  - _USESPECULAR_ON
+  m_InvalidKeywords:
+  - _METALLICSPECGLOSSMAP
+  - _NORMALMAP
+  - _OVERLAYMODE_HALFTONE
+  - _PARALLAXMAP
+  - _SPECULARHIGHLIGHTS_OFF
+  - _USESHADOWS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _DetailMask
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 411088ba38b68c24696ebe029824e775, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 0d88b6d41fad3c3418b0d424912d7498, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HalftoneTexture:
+        m_Texture: {fileID: 2800000, guid: 8d359518c918b044b8c82e113f8e7dc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 411088ba38b68c24696ebe029824e775, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 6c194ec90a7b5274fa7e1f70deb00d7d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMaskTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AdaptiveThicnkess: 0
+    - _AdditionalLightsAmount: 1
+    - _AdditionalLightsFaloff: 1
+    - _Cull: 0
+    - _Cutoff: 0.54
+    - _Darken: 0
+    - _DiffusePosterizeOffset: 0
+    - _DiffuseWarpAffectHalftone: 1
+    - _DiffuseWarpBrightnessOffset: 1.12
+    - _Glossiness: 0
+    - _HalftoneEdgeOffset: 0.23
+    - _HalftoneSmoothness: 0.69
+    - _HalftoneThreshold: 0.15
+    - _HalftoneToonAffect: 0
+    - _HaltonePatternSize: 0
+    - _IndirectLightStrength: 1
+    - _LightRampOffset: 0
+    - _Lighten: 0
+    - _OutlineNoiseIntesity: 1.11
+    - _OutlineTextureStrength: 0
+    - _OutlineType: 0
+    - _OverlayMode: 1
+    - _OverlayRotation: 2
+    - _OverlayUVTilling: 300
+    - _RampDiffuseTextureLoaded: 1
+    - _RimPower: 9.12
+    - _RimSmoothness: 0
+    - _RimThickness: 0
+    - _ShapeSmoothness: 0.669
+    - _Smoothness: 0
+    - _SpecularFaloff: 0
+    - _SpecularHighlights: 0
+    - _SpecularMaskScale: 1
+    - _SpecularMaskStrength: 0.1856417
+    - _SpecularShadowMask: 0
+    - _StepHalftoneTexture: 0
+    - _StepOffset: 0
+    - _Thicnkess: 0
+    - _UVScrollSpeed: 0
+    - _UVSrcrollAngle: 59
+    - _UseAdditionalLightsDiffuse: 1
+    - _UseBacklight: 0
+    - _UseDiffuseWarp: 0
+    - _UseDynamicOutline: 1
+    - _UseEnvironmentRefletion: 1
+    - _UseHatchingConstantScale: 1
+    - _UseLightRamp: 0
+    - _UseOutline: 0
+    - _UseRimLight: 0
+    - _UseScreenUvs: 0
+    - _UseScreenUvsSpecular: 0
+    - _UseSpecular: 1
+    - _UseSpecularMask: 0
+    - _WarpStrength: 0
+    - _WarpTextureScale: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HalftoneColor: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _RimShadowColor: {r: 0, g: 0.055514283, b: 0.9622641, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []

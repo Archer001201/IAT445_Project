@@ -2432,7 +2432,6 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!114 &157888028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38703,7 +38702,6 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184444216}
-  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -38777,17 +38775,14 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6fc72496a612b1f4a98e405266608572,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0693
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6fc72496a612b1f4a98e405266608572,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.142
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6fc72496a612b1f4a98e405266608572,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.99
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6fc72496a612b1f4a98e405266608572,
         type: 3}

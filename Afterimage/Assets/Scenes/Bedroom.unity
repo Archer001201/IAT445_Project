@@ -5163,20 +5163,88 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.size
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].content
-      value: "\"Ahh, the desk! Yes, now I remember. I used to sit here all the time\u2014watching
-        the sky, reading my books, just\u2026 well, now what was that last thing?
-        Hmmm\u2026\""
+      value: 'Ahh, the desk! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: ' Yes, now I remember'
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: I used to sit here all the time
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: watching the sky
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: reading my books
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: "just\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: "just\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: well now what was that last thing?
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: b7325994c5fcb024bbe300cd090d0b6c, type: 3}
+      objectReference: {fileID: 8300000, guid: c51af15d55188474cb92436ce47b9ad2, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b497c996641f2374085a654e23d97538, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 11d8ec4786e305742a445fe852110480, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 634903a5cf980b8409d140e784e846b0, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f5b1f89d811f32744b19e08b082675d5, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e373eaf5c17c15b4c953be5faa6b38c3, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e373eaf5c17c15b4c953be5faa6b38c3, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c7ddc50e71ee96e479c8efb136a5c98b, type: 3}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: m_Name
@@ -7746,6 +7814,44 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!84 &317383466
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 90
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_EnableRandomWrite: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &329903892 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1825873673650527057, guid: c8f3c4914ed09be4999d3eb1e3a7b5f5,
@@ -12771,20 +12877,78 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.size
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].content
-      value: "The ceiling is a record? What a curious dream world this is\u2014always
-        surprising me. But\u2026it\u2019s broken now sadly. It looks so familiar,
-        so\u2026nostalgic. Doctor, would you mind taking a look at it?"
+      value: The ceiling is a record? What a curious dream world this is
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: "But\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: "it\u2019s broken now sadly"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: ' It looks so familiar'
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: "so\u2026nostalgic"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: Doctor
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: ' would you mind taking a look at it?'
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: f8e25ebe062315b449cad6379dfeb663, type: 3}
+      objectReference: {fileID: 8300000, guid: a0cdd0831ef03be4783fe09c2cf46d1c, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b84d0becac3b8184a96672f0ce5c2c7a, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ed8292bc7d86675428608966ebd16dcd, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 46f94f7a0f8deea468468f8ef6abb12a, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bf6afc0f946ea3d4094e9db8ee42c510, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 77b397f1779f0c541acfe0115d34329b, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bae57d6b580fb1246ad65012d6def48f, type: 3}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: m_Name
@@ -13336,19 +13500,48 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].content
-      value: Oh dear, I forgot to put the cup back on the desk again! Never leave
-        a cup by the bed, you never know how far that hand will reach in the night
+      value: Oh dear
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: I forgot to put the cup back on the desk again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: Never leave a cup by the bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: you never know how far that hand will reach in the night
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 5076a7a8f102f014ca547efb07faf245, type: 3}
+      objectReference: {fileID: 8300000, guid: 6adf29ad5d001764aba7f5b788a39e57, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3a54dcfcf2ef6a443a9d45542d77bd1e, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: dffdfd83d98f13e469f84d2ff18788c5, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: eedd193895d9bed4dae061dd5a82dbee, type: 3}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: m_Name
@@ -13506,7 +13699,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
     - _ToLightDir: {r: -0.19014141, g: 0.7864062, b: -0.58771724, a: 0}
-    - _WindDirection: {r: 0.0094689205, g: 0.0063126134, b: 0, a: 19.159054}
+    - _WindDirection: {r: 8.265755, g: 5.5104966, b: 0, a: 202.71515}
   m_BuildTextureStacks: []
 --- !u!1 &536848290
 GameObject:
@@ -21789,7 +21982,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
     - _ToLightDir: {r: 0.010316448, g: 0.58154875, b: 0.8134462, a: 0}
-    - _WindDirection: {r: 0.0094689205, g: 0.0063126134, b: 0, a: 19.159054}
+    - _WindDirection: {r: 8.265755, g: 5.5104966, b: 0, a: 202.71515}
   m_BuildTextureStacks: []
 --- !u!1 &871282267
 GameObject:
@@ -24018,125 +24211,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!21 &949033201
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: DustParticle(Clone)
-  m_Shader: {fileID: 4800000, guid: fc2655527708b470d9b23bfe28ede3e9, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - VL_SHADOWS
-  - VL_SPOT
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3102
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: ed6dc1204147d451d96326c7fedc6727, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Cookie2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AlphaClip: 0
-    - _Blend: 0
-    - _BlendOp: 0
-    - _Border: 0.5
-    - _BumpScale: 1
-    - _CameraFadingEnabled: 0
-    - _CameraFarFadeDistance: 2
-    - _CameraNearFadeDistance: 1
-    - _ColorMode: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DistanceFallOff: 1
-    - _DistortionBlend: 0.5
-    - _DistortionEnabled: 0
-    - _DistortionStrength: 1
-    - _DistortionStrengthScaled: 0.1
-    - _DstBlend: 0
-    - _EnvironmentReflections: 1
-    - _FlipbookBlending: 0
-    - _FlipbookMode: 0
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _Metallic: 0
-    - _Mode: 0
-    - _NearClipDistance: 0
-    - _OcclusionStrength: 1
-    - _ParticleDistanceAtten: 45.8329
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SoftParticlesEnabled: 0
-    - _SoftParticlesFarFadeDistance: 1
-    - _SoftParticlesNearFadeDistance: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _AreaExtents: {r: 0, g: 0, b: 0, a: 1}
-    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
-    - _BoundsCenter: {r: 2.9905257, g: 1.4773715, b: 3.7604823, a: 0}
-    - _BoundsExtents: {r: 1.6388618, g: 4.646735, b: 5.596856, a: 0}
-    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _ConeAxis: {r: -0.118948646, g: -6.705257, b: -9.379035, a: 132.94089}
-    - _ConeTipData: {r: 3.05, g: 4.83, b: 8.45, a: 0}
-    - _Cookie2D_Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Cookie2D_SS: {r: 1, g: 1, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ExtraGeoData: {r: 1.558546, g: -0.00752214, b: 1, a: 11.53}
-    - _FallOff: {r: 1, g: 2, b: 1, a: 0}
-    - _ParticleLightColor: {r: 2.5132, g: 2.5132, b: 2.5132, a: 2.5132}
-    - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
-    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &952601183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36781,22 +36855,118 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.size
-      value: 1
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].content
-      value: "Oh! My sewing case! How could I forget that? You know, my little grandson
-        used to think it was a snack box! His disappointed little face would make
-        me laugh every time. I couldn\u2019t blame him, though\u2014the box has 'cookies'
-        literally written on it! Doctor, could you place this on the desk? I think
-        it might help me remember more."
+      value: 'My sewing case! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: How could I forget that?
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: You know
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: My little grandson used to think
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: it was a snack box
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: His disappointed little face would make me laugh every time
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: "I couldn\u2019t blame him though"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: the box has 'cookies' literally written on it
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].content
+      value: Doctor
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].content
+      value: could you place this on the desk
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].content
+      value: I think it might help me remember more
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 29435de466272a242b0c280587974395, type: 3}
+      objectReference: {fileID: 8300000, guid: 7ab4f1d451137a842bb3dfc87161277f, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fc42cdb76f3c4414eb424bef4ab910ed, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 49e40594b76bc5c4193a558fe9a625ed, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d77bf0ab0a5129d4a9452b0f00327ad6, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 831f5a268e0d67740adebc269917e1b9, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d21d6fc39e98fe7498947561dc4d5bc7, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4a2ea1e62b02fcf41b0a5207891d8d71, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1cac9078aa2c29749b21a783473f0166, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 13787e407e639e2428f3e20dcec45bac, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: de1806d3a7686ee468b9b1306cb5aa0b, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1c15bb7ccbfcad7478ee4f7cdfadb78d, type: 3}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: m_Name
@@ -37543,21 +37713,118 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.size
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].content
-      value: "\"The closet, hmm? I never much liked the look of it\u2014it was my
-        husband's choice, after all. That old man, always saying 'practicality above
-        all else.' And he was right, I suppose! But there should be\u2026more things
-        in here, if I remember right.\"w"
+      value: The closet?
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: I never much liked the look of it
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: it was my husband's choice after all
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: That old man
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: always saying
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: '''practicality above all else'''
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: '''practicality above all else'''
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: And he was right I suppose
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].content
+      value: "But there should be\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].content
+      value: more things in here if I remember right
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].content
+      value: ' if I remember right'
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 0d5e932705a16674cb53cc6837a26772, type: 3}
+      objectReference: {fileID: 8300000, guid: d6fa9d7d40c7ade4c9c2fdf4c895b673, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c1cbe4b75697ed34092fa5ce4afbd7af, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d60a1112def1c9f44aec3874bac76b44, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d0ef8e3b714fc024d81c454c733b08af, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f30e4fb50cf39e747a505541a90488e2, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3a96f3091ae05e34f9bc0384f4e5f247, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3a96f3091ae05e34f9bc0384f4e5f247, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: dcf1894451232664f819f6622b94fa0b, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0efc166baf2871d468aa2bfeb4a81935, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5c19626590b9f4444ad4b94df29f7432, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5c19626590b9f4444ad4b94df29f7432, type: 3}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: m_Name
@@ -38114,6 +38381,125 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1689258472}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1183677345
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DustParticle(Clone)
+  m_Shader: {fileID: 4800000, guid: fc2655527708b470d9b23bfe28ede3e9, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - VL_SHADOWS
+  - VL_SPOT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3102
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: ed6dc1204147d451d96326c7fedc6727, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cookie2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BlendOp: 0
+    - _Border: 0.5
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DistanceFallOff: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0.1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _FlipbookBlending: 0
+    - _FlipbookMode: 0
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NearClipDistance: 0
+    - _OcclusionStrength: 1
+    - _ParticleDistanceAtten: 45.8329
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _AreaExtents: {r: 0, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _BoundsCenter: {r: 2.9905257, g: 1.4773715, b: 3.7604823, a: 0}
+    - _BoundsExtents: {r: 1.6388618, g: 4.646735, b: 5.596856, a: 0}
+    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _ConeAxis: {r: -0.118948646, g: -6.705257, b: -9.379035, a: 132.94089}
+    - _ConeTipData: {r: 3.05, g: 4.83, b: 8.45, a: 0}
+    - _Cookie2D_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Cookie2D_SS: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ExtraGeoData: {r: 1.558546, g: -0.00752214, b: 1, a: 11.53}
+    - _FallOff: {r: 1, g: 2, b: 1, a: 0}
+    - _ParticleLightColor: {r: 2.5132, g: 2.5132, b: 2.5132, a: 2.5132}
+    - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &1184444216
 GameObject:
   m_ObjectHideFlags: 0
@@ -38232,7 +38618,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967293
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 1883221112}
+  m_TargetTexture: {fileID: 2116626642}
   m_TargetDisplay: 0
   m_TargetEye: 0
   m_HDR: 0
@@ -39500,44 +39886,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1262354945}
   m_SourcePrefab: {fileID: 100100000, guid: 1852831b0115e964b9fe78f994161270, type: 3}
---- !u!84 &1234598573
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 90
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!43 &1242808821
 Mesh:
   m_ObjectHideFlags: 0
@@ -64321,44 +64669,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
---- !u!84 &1883221112
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 90
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!43 &1889321272
 Mesh:
   m_ObjectHideFlags: 0
@@ -66102,7 +66412,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967293
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 1234598573}
+  m_TargetTexture: {fileID: 317383466}
   m_TargetDisplay: 0
   m_TargetEye: 0
   m_HDR: 0
@@ -66482,22 +66792,128 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.size
-      value: 1
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].content
-      value: "Ah, this is Teresa\u2019s record, one of my favorites! She was banned
-        for a time, so getting this record wasn\u2019t easy. I used to treasure it,
-        but my husband\u2014so clumsy\u2014accidentally broke it when we moved out.
-        Doctor, could you place it on the player and let it spin again? It\u2019s
-        been ages since I last heard it"
+      value: Ahh
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: "This is Teresa\u2019s record"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: one of my favorites!
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: She was banned for a time
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: "so getting this record wasn\u2019t easy"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: I used to treasure it
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: but my husband
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: so clumsy
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].content
+      value: accidentally broke it when we moved out
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].content
+      value: Doctor
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].content
+      value: could you place it on the player and let it spin again
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].content
+      value: "It\u2019s been ages since I last heard it"
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: fcb217751ae48004ca46f436363902b9, type: 3}
+      objectReference: {fileID: 8300000, guid: cc8014316a2a58c4c86b0fb4ae328550, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 71efb1341549de94198d8eb90a7bd2c0, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fa3ea0ed3c84c1a4caaf87d8ba181e36, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: db15802dd4937e740b818cfb58ad04e8, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 61df22701d67d834fa6544c0f2171312, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d5a4ae5ae3133774fa9f4bf08562c091, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 38cd19320443470498c093c9c4854c16, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2d20c902e2c8ea643969542c6bdb56e7, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f0b1fd410ef7bbb42a2e6e03b8cbbebb, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3304d561be51264488be327ac9acf511, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8a2f892ba40e14544bff17afec21a42e, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0b543408e82415344bb460131c66e17d, type: 3}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: m_Name
@@ -67234,25 +67650,198 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.size
-      value: 1
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].content
-      value: "Yes\u2026that\u2019s it. It\u2019s been so long since I saw this place
-        like this. When my husband was still working in the army\u2019s newspaper
-        department, we lived in this cozy little apartment. We stayed here until
-        our daughter insisted we move to her new appartement . But oh, the afternoons
-        I spent here, alone by the desk with my sewing, Teresa\u2019s \u2018Goodbye
-        Again\u2019 playing softly, and my grandson napping beside me. It just made
-        me feel so at peace\u2026so happy. Doctor, do you see that door over there?
-        I don\u2019t remember a door in that spot\u2014could you check it for me?"
+      value: "Yes\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: "that\u2019s it"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: "It\u2019s been so long since I saw this place like this"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: "When my husband was still working in the army\u2019s newspaper department"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: ' we lived in this cozy little apartment'
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: We stayed here
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: until our daughter insisted we move to her new appartement
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: But oh
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].content
+      value: the afternoons I spent here
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].content
+      value: alone by the desk with my sewing
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].content
+      value: "Teresa\u2019s \u2018Goodbye Again\u2019 playing softly"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].content
+      value: and my little grandson napping beside me
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[12].content
+      value: ' It just'
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[13].content
+      value: made me feel so at peace
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[14].content
+      value: so happy
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[15].content
+      value: Doctor
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[16].content
+      value: do you see that door over there?
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[17].content
+      value: " I don\u2019t remember a door in that spot"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[18].content
+      value: could you check it for me?
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 346a98aff33ebce47a593da6c8b1262c, type: 3}
+      objectReference: {fileID: 8300000, guid: 55ad35e406704a94aa80495d1bf709c2, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a0365b7fe1b98f3409322f403825cef6, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3dd46d9e1ead2b545a4249362398bb85, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2256cb0801949444299cf9fe877d68a0, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2740775c11c3bf949aa6b65a9b274187, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ea7007d749f7007468221a2455cba904, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 68e26b3945d73da4c8461f9ff1163c53, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2fb75d6edfc21214f86e1314b9acb0b3, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 401133cf5563ab147885dd2264756949, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f07c558f1aede4c4c867adb04ccedd09, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2324c7fb4bac2504bb61c9c3501d36d8, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7c1713a3ab91902438c0474329dc94ec, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[12].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c2991d001821cea49ab22cf2c607bc62, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[13].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a899013da90c41943af1046f08b6006d, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[14].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d1dd8a2e0d31bc748bf6811ab4be154e, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[15].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5d9c988c3df0658498a7f66588a3cd15, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[16].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 469d2ca081a68b74499cf45511955299, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[17].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fc4ad38b3634f9c46b38f84a3b0d94fd, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[18].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3d6689dad8615944496c4b6b2f627654, type: 3}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: m_Name
@@ -68068,6 +68657,44 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!84 &2116626642
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 90
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_EnableRandomWrite: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &2121407627 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5650474337536192791, guid: b1537290f47c63744ac10546e5a71f18,
@@ -68840,7 +69467,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 949033201}
+      objectReference: {fileID: 1183677345}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -68885,6 +69512,6 @@ SceneRoots:
   - {fileID: 1120954783}
   - {fileID: 526754262}
   - {fileID: 257476344}
+  - {fileID: 493988766}
   - {fileID: 1972268099}
   - {fileID: 2046067606}
-  - {fileID: 493988766}

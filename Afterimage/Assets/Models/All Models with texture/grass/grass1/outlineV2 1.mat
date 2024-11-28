@@ -26,7 +26,6 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
-  - _ADDWAVE_ON
   - _CLAMPADJUSTMENTS_ON
   - _CLIPTRIPLANAR_ON
   - _FOLDCOLOR_ON
@@ -34,10 +33,8 @@ Material:
   - _FOLDLIGHTINGEFFECTS_ON
   - _FOLDLIGHTING_ON
   - _FOLDTEXTURES_ON
-  - _FOLDWAVE_ON
   - _NORMALSURFACEOUTLINE_ON
   - _USESWAY_ON
-  - _USEWAVE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
@@ -73,7 +70,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: 0fae897fcecb83844ab6adca568a9381, type: 3}
+        m_Texture: {fileID: 2800000, guid: 79b4ec8db70cac745a97fbeaf9ed5c67, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureOff:
@@ -115,7 +112,7 @@ Material:
     - _AddSwirling: 0
     - _AddTriplanar: 0
     - _AddVariation: 0
-    - _AddWave: 0
+    - _AddWave: 1
     - _AdditionalLightRamp: 1
     - _AlphaCutoff: 0.5
     - _BlendStrength: 0.5
@@ -142,19 +139,19 @@ Material:
     - _FoldGlint: 0
     - _FoldGradient: 0
     - _FoldHalfTone: 0
-    - _FoldInspector: 0
+    - _FoldInspector: 1
     - _FoldLighting: 1
     - _FoldLightingEffects: 1
     - _FoldNoise: 0
     - _FoldOutline: 0
     - _FoldPrecipitation: 0
-    - _FoldRendering: 0
+    - _FoldRendering: 1
     - _FoldSway: 0
     - _FoldSwirling: 0
     - _FoldTextures: 1
     - _FoldTriplanar: 0
     - _FoldVariation: 0
-    - _FoldWave: 0
+    - _FoldWave: 1
     - _GlintScale: 0.4
     - _GradientOffset: 0.7
     - _GradientSensitivity: 1.8
@@ -232,7 +229,7 @@ Material:
     - _UseSway: 1
     - _UseSwirl: 0
     - _UseTriplanar: 0
-    - _UseWave: 0
+    - _UseWave: 1
     - _ValueShift: 0
     - _ValueVariation: 0
     - _VariationScale: 7.7
@@ -277,6 +274,6 @@ Material:
     - _TriplanarDirection: {r: 0, g: 1, b: 0, a: 0}
     - _WaveDirection1: {r: 0, g: 1, b: 0, a: 0}
     - _WaveDirection2: {r: 0, g: 1, b: 0, a: 0}
-    - _WaveInfluenceDirection: {r: 0.4, g: 0, b: 0, a: 0}
+    - _WaveInfluenceDirection: {r: 0.1, g: 0, b: 0.1, a: 0}
     - _WaveMask: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

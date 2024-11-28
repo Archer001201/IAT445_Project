@@ -130,9 +130,9 @@ Material:
     - _EmissionLightRatio: 1
     - _EmissionShadowRatio: 1
     - _EmissionUVSource: 0
-    - _FlutterAmount: 6.9
-    - _FlutterFramerate: 10
-    - _FlutterNoiseScale: 3.32
+    - _FlutterAmount: 4.3
+    - _FlutterFramerate: 7
+    - _FlutterNoiseScale: 10
     - _FlutterOffset: 0
     - _FlutterSensitivity: 1
     - _FlutterSource: 3
@@ -183,7 +183,7 @@ Material:
     - _NormalMode: 0
     - _NormalSurfaceOutline: 1
     - _OutLineMode: 1
-    - _OutlineWidth: 0.105
+    - _OutlineWidth: 0.088
     - _PosterizeColors: 0
     - _PosterizeLight: 0
     - _PuddleScale: 0.4
@@ -214,7 +214,7 @@ Material:
     - _SwirlSensitivity: 1
     - _SwirlSource: 3
     - _SwirlSpeed: 1
-    - _TriplanarMultiplier: 0
+    - _TriplanarMultiplier: 0.8
     - _TriplanarOffset: 0
     - _TriplanarSpace: 0
     - _UseCOZYPrecipitation: 0
@@ -240,13 +240,13 @@ Material:
     - _ValueVariation: 0
     - _VariationScale: 7.7
     - _VariationSource: 0
-    - _WaveAmount: 1
+    - _WaveAmount: 0.8
     - _WaveFramerate: 60
-    - _WaveNoiseScale: 0.5
+    - _WaveNoiseScale: 9.92
     - _WaveOffset: 0.77
     - _WaveSensitivity: 1
     - _WaveSource: 3
-    - _WaveSpeed: 3.004473
+    - _WaveSpeed: 1.68
     - _isLit: 0
     m_Colors:
     - _CustomNormalDirection: {r: 0, g: 1, b: 0, a: 0}
@@ -280,6 +280,6 @@ Material:
     - _TriplanarDirection: {r: 0, g: 1, b: 0, a: 0}
     - _WaveDirection1: {r: 0, g: 1, b: 0, a: 0}
     - _WaveDirection2: {r: 0, g: 1, b: 0, a: 0}
-    - _WaveInfluenceDirection: {r: -8.1, g: -6.4, b: 6.6, a: 0}
+    - _WaveInfluenceDirection: {r: -20, g: -0.7, b: -0.4, a: 0}
     - _WaveMask: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

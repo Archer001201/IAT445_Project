@@ -16,6 +16,7 @@ Material:
   - _OVERLAYMODE1_NONE
   - _OVERLAYMODE_HAFTONE
   - _RIMSPLITCOLOR_NOSPLIT
+  - _USEDYNAMICOUTLINE_ON
   - _USELIGHTRAMP_DIFFUSERAMP
   - _USEOUTLINE_ON
   - _USEPURESKETCH_ON
@@ -124,7 +125,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AdaptiveThicnkess: 0
+    - _AdaptiveThicnkess: 1
     - _AdditionalLightsAmount: 0
     - _AdditionalLightsFaloff: 0
     - _AdditionalLightsIntesity: 1
@@ -217,7 +218,7 @@ Material:
     - _StepOffset: 0.026
     - _Strength: 0
     - _Surface: 0
-    - _Thicnkess: 0.0265
+    - _Thicnkess: 0.0118
     - _UVAnimationSpeed: 0
     - _UVAnimationSpeedSpec: 2
     - _UVAnimationSpeedWarp: 0
@@ -234,7 +235,7 @@ Material:
     - _UseBacklight: 0
     - _UseDiffuseWarp: 0
     - _UseDiffuseWarpAsOverlay: 0
-    - _UseDynamicOutline: 0
+    - _UseDynamicOutline: 1
     - _UseEmission: 0
     - _UseEnvironmentRefletion: 0
     - _UseHairSpecular: 0

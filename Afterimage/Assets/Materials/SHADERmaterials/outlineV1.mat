@@ -12,15 +12,19 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _DIFFUSEWARPAFFECTHALFTONE_ON
   - _OUTLINETYPE_NORMAL
   - _OVERLAYMODE1_NONE
   - _OVERLAYMODE_NONE
   - _RIMSPLITCOLOR_NOSPLIT
+  - _USEADAPTIVESCREENUVS_ON
+  - _USEBACKLIGHT_ON
   - _USEDYNAMICOUTLINE_ON
   - _USEHATCHINGCONSTANTSCALE_ON
   - _USELIGHTRAMP_STEP
   - _USEOUTLINE_ON
   - _USEPURESKETCH_ON
+  - _USERIMLIGHT_ON
   m_InvalidKeywords:
   - _USESHADOWS_ON
   m_LightmapFlags: 4
@@ -29,7 +33,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _HalftoneEdgeOffset
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -62,15 +66,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HalftoneTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 9c5dfa0d1c0d4b4469f1d848b5cdba8b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Hatch1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 9c5dfa0d1c0d4b4469f1d848b5cdba8b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Hatch2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 801d9bfee231f9b42a40acbcc10c9884, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightRampTexture:
@@ -147,7 +151,7 @@ Material:
     - _DiffusePosterizeOffset: 0
     - _DiffusePosterizePower: 1
     - _DiffusePosterizeSteps: 3
-    - _DiffuseWarpAffectHalftone: 0
+    - _DiffuseWarpAffectHalftone: 1
     - _DiffuseWarpBrightnessOffset: 1.12
     - _DstBlend: 0
     - _DstBlendAlpha: 0
@@ -155,10 +159,10 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HalftoneEdgeOffset: 0.1
-    - _HalftoneSmoothness: 0.3
-    - _HalftoneThreshold: 0.1
-    - _HalftoneToonAffect: 0
+    - _HalftoneEdgeOffset: -0.63
+    - _HalftoneSmoothness: 2
+    - _HalftoneThreshold: 0.15
+    - _HalftoneToonAffect: 1
     - _HaltonePatternSize: 0
     - _IndirectLightAffectOnHatch: 0
     - _IndirectLightStrength: 0.33
@@ -177,8 +181,8 @@ Material:
     - _OutlineType: 0
     - _OverlayMode: 0
     - _OverlayMode1: 0
-    - _OverlayRotation: 0
-    - _OverlayUVTilling: 0
+    - _OverlayRotation: 131
+    - _OverlayUVTilling: 17.35
     - _PaperTilling: 1
     - _Parallax: 0.005
     - _QueueControl: -1
@@ -186,10 +190,10 @@ Material:
     - _RampDiffuseTextureLoaded: 1
     - _ReceiveShadows: 1
     - _RimPower: 12
-    - _RimSmoothness: 0
+    - _RimSmoothness: 0.5
     - _RimSplitColor: 0
-    - _RimThickness: 1
-    - _ShapeSmoothness: 0.2
+    - _RimThickness: 0.34
+    - _ShapeSmoothness: 0.45
     - _Shininess: 0.1
     - _SideShineAmount: 0.2717647
     - _SideShineHardness: 0
@@ -210,21 +214,21 @@ Material:
     - _StepOffset: -0.151
     - _Strength: 0
     - _Surface: 0
-    - _Thicnkess: 0.0048
+    - _Thicnkess: 0.0018
     - _UVAnimationSpeed: 0
     - _UVAnimationSpeedSpec: 0
     - _UVAnimationSpeedWarp: 0
-    - _UVScrollSpeed: 0
+    - _UVScrollSpeed: 0.0218
     - _UVScrollSpeedSpec: 0
     - _UVScrollSpeedWarp: 0
-    - _UVSrcrollAngle: 0
+    - _UVSrcrollAngle: 149
     - _UVSrcrollAngleSpec: 0
     - _UVSrcrollAngleWarp: 0
-    - _UseAdaptiveScreenUvs: 0
+    - _UseAdaptiveScreenUvs: 1
     - _UseAdaptiveScreenUvsWarp: 0
     - _UseAdaptiveUvsSpecular: 0
     - _UseAdditionalLightsDiffuse: 0
-    - _UseBacklight: 0
+    - _UseBacklight: 1
     - _UseDiffuseWarp: 0
     - _UseDiffuseWarpAsOverlay: 0
     - _UseDynamicOutline: 1
@@ -234,7 +238,7 @@ Material:
     - _UseLightRamp: 0
     - _UseOutline: 1
     - _UsePureSketch: 1
-    - _UseRimLight: 0
+    - _UseRimLight: 1
     - _UseScreenUvs: 0
     - _UseScreenUvsSpecular: 0
     - _UseScreenUvsWarp: 0
@@ -252,7 +256,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HalftoneColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HalftoneColor: {r: 1, g: 1, b: 1, a: 1}
     - _HatchingColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainColor: {r: 0.3921569, g: 0.3921569, b: 0.3921569, a: 1}
     - _OutlineColor: {r: 1, g: 1, b: 1, a: 0}

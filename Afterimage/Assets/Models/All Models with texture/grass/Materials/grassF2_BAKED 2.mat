@@ -111,7 +111,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 1
-    - _AlphaClipThreshold: 0.25
+    - _AlphaClipThreshold: 0.3
     - _AlphaToMask: 1
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
@@ -137,7 +137,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0
+    - _Smoothness: 7
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -160,10 +160,10 @@ Material:
     - _Bottom_Color: {r: 0, g: 0.38205948, b: 0.38993704, a: 0}
     - _Color: {r: 0, g: 1, b: 0.06802511, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FarColor: {r: 0, g: 0.38364768, b: 0.019182365, a: 0}
-    - _NearColor: {r: 0.11685467, g: 1, b: 0, a: 0}
-    - _NearfarRange: {r: 2.3, g: 12.51, b: 0, a: 0}
-    - _ShadowColor: {r: 0.38993704, g: 0.2544163, b: 0, a: 0}
+    - _FarColor: {r: 0.0037765496, g: 0.20125782, b: 0, a: 0}
+    - _NearColor: {r: 0.058823586, g: 1, b: 0, a: 0}
+    - _NearfarRange: {r: -8.72, g: 8.25, b: 0, a: 0}
+    - _ShadowColor: {r: 0, g: 0.23230694, b: 0.34591186, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _WindNoiseContrast: {r: 0, g: 1, b: 0, a: 0}
     - _WindNoise_Scale: {r: 40, g: 100, b: 0, a: 0}

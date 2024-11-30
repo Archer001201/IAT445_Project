@@ -1007,6 +1007,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1199866930
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3043369111107059856, guid: e286e920fee0f9d458ae2d07cfc9156b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3043369111107059856, guid: e286e920fee0f9d458ae2d07cfc9156b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.14874019
+      objectReference: {fileID: 0}
+    - target: {fileID: 3043369111107059856, guid: e286e920fee0f9d458ae2d07cfc9156b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3043369111107059856, guid: e286e920fee0f9d458ae2d07cfc9156b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3043369111107059856, guid: e286e920fee0f9d458ae2d07cfc9156b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3043369111107059856, guid: e286e920fee0f9d458ae2d07cfc9156b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3043369111107059856, guid: e286e920fee0f9d458ae2d07cfc9156b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3043369111107059856, guid: e286e920fee0f9d458ae2d07cfc9156b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3043369111107059856, guid: e286e920fee0f9d458ae2d07cfc9156b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3043369111107059856, guid: e286e920fee0f9d458ae2d07cfc9156b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414926176555694587, guid: e286e920fee0f9d458ae2d07cfc9156b,
+        type: 3}
+      propertyPath: m_Name
+      value: Lavander3_BAKED (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e286e920fee0f9d458ae2d07cfc9156b, type: 3}
 --- !u!1 &1274353840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1576,7 +1644,7 @@ Transform:
   m_GameObject: {fileID: 1584064959}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21, y: 2.95, z: 44.73}
+  m_LocalPosition: {x: 19.98, y: 3.34, z: 40.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3671,3 +3739,4 @@ SceneRoots:
   - {fileID: 1549100083}
   - {fileID: 1584064963}
   - {fileID: 1929893461}
+  - {fileID: 1199866930}

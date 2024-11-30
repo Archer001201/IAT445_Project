@@ -87,6 +87,10 @@ Material:
         m_Texture: {fileID: 8400000, guid: f7454523dabee6744b07e8eb46dfa7d1, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _WindTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _maintext:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -140,18 +144,26 @@ Material:
     - _Surface: 0
     - _TerrainOffset: 0
     - _TerrainSize: 50
+    - _USETERRAINCOLOR: 0
     - _UVSec: 0
+    - _WindHeight: 0.5
+    - _WindIntensity: 0.1
+    - _WindNoiseSpeed: 1
+    - _WindSpeed: 0.05
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Bottom_Color: {r: 1, g: 0.8656635, b: 0, a: 0}
+    - _Bottom_Color: {r: 0, g: 0.14958507, b: 0.47798735, a: 0}
     - _Color: {r: 0, g: 1, b: 0.0666666, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FarColor: {r: 0, g: 0, b: 0, a: 0}
-    - _NearColor: {r: 0, g: 0, b: 0, a: 0}
-    - _NearfarRange: {r: 10, g: 25, b: 0, a: 0}
+    - _FarColor: {r: 0, g: 0.13207549, b: 0.0073375306, a: 0}
+    - _NearColor: {r: 0, g: 1, b: 0.11506605, a: 0}
+    - _NearfarRange: {r: 3.67, g: 10.09, b: 0, a: 0}
+    - _ShadowColor: {r: 0, g: 0.01666657, b: 0.3333333, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _WindNoiseContrast: {r: 0, g: 1, b: 0, a: 0}
+    - _WindNoise_Scale: {r: 10, g: 20, b: 0, a: 0}
   m_BuildTextureStacks: []

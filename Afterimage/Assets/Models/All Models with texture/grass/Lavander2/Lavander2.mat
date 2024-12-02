@@ -61,6 +61,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 1
+    - _AlphaClipThreshold: 0.25
     - _AlphaToMask: 1
     - _Cull: 0
     - _Cutoff: 0.25

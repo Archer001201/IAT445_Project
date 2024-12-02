@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: outlineV2
+  m_Name: outlineV3
   m_Shader: {fileID: 4800000, guid: 7b1800ad42ed17b40aa863e055328b8e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -28,6 +28,7 @@ Material:
   m_InvalidKeywords:
   - _ADDFLUTTERING_ON
   - _ADDOUTLINE_ON
+  - _ADDWAVE_ON
   - _CLAMPADJUSTMENTS_ON
   - _CLIPTRIPLANAR_ON
   - _FOLDCOLOR_ON
@@ -36,6 +37,7 @@ Material:
   - _FOLDLIGHTINGEFFECTS_ON
   - _FOLDLIGHTING_ON
   - _FOLDOUTLINE_ON
+  - _FOLDWAVE_ON
   - _NORMALSURFACEOUTLINE_ON
   - _USEFLATTEXTURE_ON
   - _USEFLUTTER_ON
@@ -118,7 +120,7 @@ Material:
     - _AddSwirling: 0
     - _AddTriplanar: 0
     - _AddVariation: 0
-    - _AddWave: 0
+    - _AddWave: 1
     - _AdditionalLightRamp: 1
     - _AlphaCutoff: 0.5
     - _BlendStrength: 0.5
@@ -130,9 +132,9 @@ Material:
     - _EmissionLightRatio: 1
     - _EmissionShadowRatio: 1
     - _EmissionUVSource: 0
-    - _FlutterAmount: 4.3
-    - _FlutterFramerate: 7
-    - _FlutterNoiseScale: 10
+    - _FlutterAmount: 4.6
+    - _FlutterFramerate: 13
+    - _FlutterNoiseScale: 3.49
     - _FlutterOffset: 0
     - _FlutterSensitivity: 1
     - _FlutterSource: 3
@@ -151,13 +153,13 @@ Material:
     - _FoldNoise: 0
     - _FoldOutline: 1
     - _FoldPrecipitation: 0
-    - _FoldRendering: 0
+    - _FoldRendering: 1
     - _FoldSway: 0
     - _FoldSwirling: 0
     - _FoldTextures: 0
     - _FoldTriplanar: 0
     - _FoldVariation: 0
-    - _FoldWave: 0
+    - _FoldWave: 1
     - _GlintScale: 0.4
     - _GradientOffset: 0.7
     - _GradientSensitivity: 1.8
@@ -240,9 +242,9 @@ Material:
     - _ValueVariation: 0
     - _VariationScale: 7.7
     - _VariationSource: 0
-    - _WaveAmount: 0.8
+    - _WaveAmount: 0.1
     - _WaveFramerate: 60
-    - _WaveNoiseScale: 9.92
+    - _WaveNoiseScale: 10
     - _WaveOffset: 0.77
     - _WaveSensitivity: 1
     - _WaveSource: 3
@@ -255,7 +257,7 @@ Material:
     - _EmissionScrolling1: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionScrolling2: {r: 0.1, g: -0.5, b: 0, a: 0}
     - _FarColor: {r: 0, g: 0.20000005, b: 1, a: 1}
-    - _FlutterDirection: {r: -9.5, g: -8.7, b: -8.4, a: 0}
+    - _FlutterDirection: {r: -5.4, g: -8.7, b: -8.4, a: 0}
     - _FlutterMask: {r: 1, g: 0, b: 0, a: 0}
     - _GlintColor: {r: 1, g: 1, b: 1, a: 1}
     - _GradientChannelMask: {r: 0, g: 1, b: 0, a: 0}
@@ -280,6 +282,6 @@ Material:
     - _TriplanarDirection: {r: 0, g: 1, b: 0, a: 0}
     - _WaveDirection1: {r: 0, g: 1, b: 0, a: 0}
     - _WaveDirection2: {r: 0, g: 1, b: 0, a: 0}
-    - _WaveInfluenceDirection: {r: -20, g: -0.7, b: -0.4, a: 0}
+    - _WaveInfluenceDirection: {r: -7.2, g: 0, b: 0, a: 0}
     - _WaveMask: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

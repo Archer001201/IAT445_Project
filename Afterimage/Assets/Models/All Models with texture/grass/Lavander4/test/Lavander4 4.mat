@@ -79,7 +79,7 @@ Material:
     - _Color: {r: 1, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FarColor: {r: 0, g: 0, b: 0, a: 0}
-    - _NearColor: {r: 0.033845533, g: 0.72955966, b: 0, a: 0}
+    - _NearColor: {r: 0.351708, g: 0.7798742, b: 0, a: 0}
     - _NearfarRange: {r: 0.5, g: 6.6, b: 0, a: 0}
     - _WindNoise_Scale: {r: 20, g: 40, b: 0, a: 0}
   m_BuildTextureStacks: []

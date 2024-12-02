@@ -784,8 +784,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 856e5d2982dd947b18a81218d02be6b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColor: {fileID: 2100000, guid: fdb9aab0b7cc84198b111f2fadeccc2f, type: 2}
-  hoveredColor: {fileID: 2100000, guid: 75c97d812294740aa8c4a62643f113cb, type: 2}
+  defaultColor: {fileID: 2100000, guid: 0a96ab3e15a784b76a62899e95f4a0c6, type: 2}
+  hoveredColor: {fileID: 2100000, guid: 9242c0b3e91004d1e8e645f66ea732e6, type: 2}
 --- !u!1 &389615989 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8815302126710784344, guid: d7b6f16cf355b4db39f9b09b7983ecf3,
@@ -2592,7 +2592,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectActionTrigger: 1
-  m_HideControllerOnSelect: 0
+  m_HideControllerOnSelect: 1
   m_AllowHoveredActivate: 0
   m_TargetPriorityMode: 0
   m_PlayAudioClipOnSelectEntered: 0
@@ -2839,8 +2839,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 856e5d2982dd947b18a81218d02be6b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColor: {fileID: 2100000, guid: fdb9aab0b7cc84198b111f2fadeccc2f, type: 2}
-  hoveredColor: {fileID: 2100000, guid: 75c97d812294740aa8c4a62643f113cb, type: 2}
+  defaultColor: {fileID: 2100000, guid: 0a96ab3e15a784b76a62899e95f4a0c6, type: 2}
+  hoveredColor: {fileID: 2100000, guid: 9242c0b3e91004d1e8e645f66ea732e6, type: 2}
 --- !u!4 &1197926938 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
@@ -3370,7 +3370,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectActionTrigger: 1
-  m_HideControllerOnSelect: 0
+  m_HideControllerOnSelect: 1
   m_AllowHoveredActivate: 0
   m_TargetPriorityMode: 0
   m_PlayAudioClipOnSelectEntered: 0

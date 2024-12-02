@@ -23,7 +23,7 @@ namespace Interactor
 
         public void HideLine(bool isHided)
         {
-            meshRenderer.enabled = isHided;
+            meshRenderer.enabled = !isHided;
         }
     }
 }

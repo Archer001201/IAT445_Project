@@ -9,14 +9,30 @@ namespace Level
     public class GameManager : MonoBehaviour
     {
         public bool playInEditor;
+        public bool initializePosition;
         public int currentSceneIndex;
         public List<string> sceneList;
+        
+        [Serializable]
+        public class ObjectAndPosition
+        {
+            public GameObject target;
+            public Vector3 position;
+        }
+
+        public List<ObjectAndPosition> objectAndPositions;
         
         private void Awake()
         {
             if (playInEditor) return;
             SceneManager.LoadScene(sceneList[currentSceneIndex], LoadSceneMode.Additive);
             StartCoroutine(SetActiveSceneWhenLoaded(sceneList[currentSceneIndex]));
+
+            if (!initializePosition) return;
+            foreach (var obj in objectAndPositions)
+            {
+                obj.target.transform.position = obj.position;
+            }
         }
 
         public void AddNextScene()

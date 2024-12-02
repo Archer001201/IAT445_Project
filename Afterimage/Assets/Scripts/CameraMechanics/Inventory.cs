@@ -71,5 +71,11 @@ namespace CameraMechanics
                 rb.isKinematic = false;
             }
         }
+
+        public void ActiveAllowAttach()
+        {
+            if (allowAttach) return;
+            allowAttach = true;
+        }
     }
 }

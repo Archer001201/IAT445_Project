@@ -1454,6 +1454,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 418039075}
+        m_TargetAssemblyTypeName: CameraMechanics.Inventory, Assembly-CSharp
+        m_MethodName: ActiveAllowAttach
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
@@ -3883,7 +3895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08503cb4142e14757b9e39cad902b5d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allowAttach: 1
+  allowAttach: 0
   gameCamera: {fileID: 647266233}
   album: {fileID: 418039066}
 --- !u!1 &1967609902 stripped
@@ -4475,6 +4487,46 @@ PrefabInstance:
       propertyPath: m_CullingMask.m_Bits
       value: 639
       objectReference: {fileID: 0}
+    - target: {fileID: 7034349357434453890, guid: 47ea0c887f26e48649ebc088fe715e27,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034349357434453890, guid: 47ea0c887f26e48649ebc088fe715e27,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034349357434453890, guid: 47ea0c887f26e48649ebc088fe715e27,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 7417852873876415867}
+    - target: {fileID: 7034349357434453890, guid: 47ea0c887f26e48649ebc088fe715e27,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034349357434453890, guid: 47ea0c887f26e48649ebc088fe715e27,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: ActiveAllowAttach
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034349357434453890, guid: 47ea0c887f26e48649ebc088fe715e27,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: CameraMechanics.Inventory, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034349357434453890, guid: 47ea0c887f26e48649ebc088fe715e27,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034349357434453890, guid: 47ea0c887f26e48649ebc088fe715e27,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4486,6 +4538,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2645417398992021272}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7417852873876415867 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5291912081204234581, guid: 47ea0c887f26e48649ebc088fe715e27,
+    type: 3}
+  m_PrefabInstance: {fileID: 2645417398992021272}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647266233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b7ff8c1d8a9458797ef7cf12731572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

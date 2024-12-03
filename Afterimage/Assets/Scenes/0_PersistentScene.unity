@@ -1620,9 +1620,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraTransform: {fileID: 907370015}
-  positionOffset: {x: 0, y: -1.2, z: -0.2}
-  localRotationOffset: {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
-  allowAttach: 1
+  positionOffset: {x: -0.3, y: -1, z: 0}
+  localRotationOffset: {x: 0.25881913, y: 0, z: 0, w: -0.9659258}
+  allowAttach: 0
   playerCollider: {fileID: 907370014}
   itemCollider: {fileID: 418039067}
 --- !u!850595691 &441569740
@@ -4784,6 +4784,11 @@ PrefabInstance:
       objectReference: {fileID: 2142787178}
     - target: {fileID: 5291912081204234581, guid: 47ea0c887f26e48649ebc088fe715e27,
         type: 3}
+      propertyPath: allowAttach
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5291912081204234581, guid: 47ea0c887f26e48649ebc088fe715e27,
+        type: 3}
       propertyPath: playerCollider
       value: 
       objectReference: {fileID: 907370014}
@@ -4796,6 +4801,11 @@ PrefabInstance:
         type: 3}
       propertyPath: positionOffset.y
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5291912081204234581, guid: 47ea0c887f26e48649ebc088fe715e27,
+        type: 3}
+      propertyPath: positionOffset.z
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 5316712106309735860, guid: 47ea0c887f26e48649ebc088fe715e27,
         type: 3}

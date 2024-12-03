@@ -147,10 +147,10 @@ Material:
     - _TerrainSize: 50
     - _USETERRAINCOLOR: 0
     - _UVSec: 0
-    - _WindHeight: 0.17
-    - _WindIntensity: 0.2
+    - _WindHeight: 0.08
+    - _WindIntensity: 0.1
     - _WindNoiseSpeed: -1.11
-    - _WindSpeed: 0.1
+    - _WindSpeed: 0.05
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 1

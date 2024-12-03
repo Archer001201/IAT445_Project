@@ -31970,7 +31970,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1531410674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32006,7 +32006,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -32065,7 +32065,7 @@ Transform:
   m_GameObject: {fileID: 1531410673}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 8.16, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32244,7 +32244,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.91, g: 0.089999974, b: 0, a: 0}
     - _ToLightDir: {r: -0, g: 0.9996326, b: 0.027105927, a: 0}
-    - _WindDirection: {r: 0.00059999997, g: 0.0004, b: 0, a: 1.236068}
+    - _WindDirection: {r: 0.34017205, g: 0.22678128, b: 0, a: 93.323135}
   m_BuildTextureStacks: []
 --- !u!43 &1572811490
 Mesh:
@@ -40352,7 +40352,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0, g: 1, b: 0, a: 0}
     - _ToLightDir: {r: -0, g: -0, b: -1, a: 0}
-    - _WindDirection: {r: 0.00059999997, g: 0.0004, b: 0, a: 1.236068}
+    - _WindDirection: {r: 0.34017205, g: 0.22678128, b: 0, a: 93.323135}
   m_BuildTextureStacks: []
 --- !u!1 &2015612178
 GameObject:
@@ -40678,7 +40678,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.97, g: 0.029999971, b: 0, a: 0}
     - _ToLightDir: {r: 0.6933292, g: 0.7178886, b: 0.06269501, a: 0}
-    - _WindDirection: {r: 0.00059999997, g: 0.0004, b: 0, a: 1.236068}
+    - _WindDirection: {r: 0.34017205, g: 0.22678128, b: 0, a: 93.323135}
   m_BuildTextureStacks: []
 --- !u!1001 &2033963194
 PrefabInstance:

@@ -1,4 +1,6 @@
 using System;
+using PhotoAlbum;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
@@ -47,6 +49,12 @@ namespace Interactor
                         {
                             hoverUI.GetComponentInChildren<Image>().material =
                                 hitObject.GetComponent<MeshRenderer>().material;
+
+                            var photoData = hitObject.GetComponent<PhotoFilm>().eventData;
+                            var str = photoData.type.ToString() + " Photo";
+                            if (photoData.isLocked) str += " (Locked)";
+                            
+                            hoverUI.GetComponentInChildren<TextMeshProUGUI>().text = str;
 
                             hoverUI.SetActive(true);
                         }

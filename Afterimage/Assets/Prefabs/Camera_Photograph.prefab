@@ -466,6 +466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventData:
+    type: 0
     captureEvent: {fileID: 0}
     material: {fileID: 0}
     isLocked: 0
@@ -492,5 +493,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.0000001, y: 1.0000002, z: 1.0087167}
-  m_Center: {x: -0.00000020257065, y: 3.2256704e-15, z: -0.50435597}
+  m_Size: {x: 1.0000001, y: 1.0000002, z: 0.16}
+  m_Center: {x: -0.00000020257065, y: 3.2256704e-15, z: -0.08}

@@ -8,6 +8,7 @@ namespace PhotoAlbum
     {
         [FormerlySerializedAs("eventAndMaterial")] public CaptureEventData eventData;
         public GameObject checkMark;
+        public GameObject crossMark;
         public Material defaultMaterial;
 
         private MeshRenderer meshRenderer;
@@ -21,6 +22,7 @@ namespace PhotoAlbum
         {
             checkMark.SetActive(false);
             meshRenderer.material = !eventData.isLocked ? eventData.material : defaultMaterial;
+            crossMark.SetActive(eventData.isLocked);
             if (eventData.captureEvent != null)
             {
                 eventData.captureEvent.onFinishedEvent.AddListener(ActivateCheckMark);
@@ -40,6 +42,7 @@ namespace PhotoAlbum
         public void UnlockPhoto()
         {
             eventData.isLocked = false;
+            crossMark.SetActive(false);
             meshRenderer.material = !eventData.isLocked ? eventData.material : defaultMaterial;
         }
     }

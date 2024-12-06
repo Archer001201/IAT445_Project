@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public static class CreateComplexMaterialFromTexture
 {
-    [MenuItem("Assets/Create Complex Material")]
+    [MenuItem("Assets/Fast Create Complex Material")]
     public static void CreateComplexDiffuseMaterial()
     {
         var selectedAsset = Selection.GetFiltered(typeof(Object), SelectionMode.DeepAssets);

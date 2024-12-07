@@ -547,6 +547,174 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1001 &56681111
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].content
+      value: My husband always forgot his camera bag
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: "so I kept it where he couldn\u2019t miss it"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: "so I kept it where he couldn\u2019t miss it"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: And this white cloth
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: And this white cloth
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: "it feels important, doesn\u2019t it"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: maybe it will be useful
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: but probally not for now
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 919e546d4d2ff9c4cb52a300231b9ff4, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3906b52a6501c2e41ab29150a9093330, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fd7a5fbb5ca95384f823082c0c1e6c81, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e6811924bdfb3744ba9e361c5356ed7, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f96eba87af87a994699138591da1f7d1, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 60a861acb2396d34e8fa03aaa92577de, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1624e655ba8160046bbefd6c3fe8cf0b, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 66222c67d83995945a5cc90aa57ebeb5, type: 3}
+    - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueProvider-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.072523
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.84085613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.2082505
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a89b6b8048e0f974d9d4f542fe7857d0, type: 3}
 --- !u!1 &69189128
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,6 +758,125 @@ Transform:
   - {fileID: 1531410676}
   m_Father: {fileID: 1077976118}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &70055463
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DustParticle(Clone)
+  m_Shader: {fileID: 4800000, guid: fc2655527708b470d9b23bfe28ede3e9, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - VL_SHADOWS
+  - VL_SPOT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3102
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: ed6dc1204147d451d96326c7fedc6727, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cookie2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BlendOp: 0
+    - _Border: 0.5
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DistanceFallOff: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0.1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _FlipbookBlending: 0
+    - _FlipbookMode: 0
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NearClipDistance: 0
+    - _OcclusionStrength: 1
+    - _ParticleDistanceAtten: 100
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _AreaExtents: {r: 0, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _BoundsCenter: {r: 4.988, g: 0.15884495, b: -9.472344, a: 0}
+    - _BoundsExtents: {r: 3.199334, g: 2.3858767, b: 3.2605026, a: 0}
+    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _ConeAxis: {r: 0.00000019122986, g: -4.59831, b: -0.12468836, a: 21.16}
+    - _ConeTipData: {r: 4.988, g: 2.458, b: -9.41, a: 0}
+    - _Cookie2D_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Cookie2D_SS: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ExtraGeoData: {r: 3.1993334, g: -0.04725898, b: 1, a: 4.6}
+    - _FallOff: {r: 1, g: 2, b: 1, a: 0}
+    - _ParticleLightColor: {r: 1.9836, g: 1.5538958, b: 1.1321491, a: 1.9836}
+    - _ShadowIntensity: {r: 0.91, g: 0.089999974, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &76587010
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,44 +1474,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!84 &85713036
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 90
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1001 &86196778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1908,6 +2157,214 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.71771514, y: 0.06532347, z: 0.72607917}
   m_Center: {x: -0.0031365156, y: 0.70571214, z: 0.0031364858}
+--- !u!1001 &165843909
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].content
+      value: Do you like apple, Doctor?
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: You do?
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: My husband like it as well
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: but he always forget to eat them
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: so I have to leave some on the coffee table for him
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: so I have to leave some on the coffee table for him
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: However
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: recently all the apples have been eaten by the stranger
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].content
+      value: recently all the apples have been eaten by the stranger
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].content
+      value: ' I think I should charage him for next time'
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].content
+      value: Or...
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].content
+      value: Or maybe he just making himself at home
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a63273e59a19d0a409bd3ba031aa83a0, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 582720ef9f8f5a54ea1764198c95aada, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 47cb6112bc1fc454ea604bb792999964, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: aff6ef0151086f64d91fc02eb98ca02c, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7aeb79a141ee78644a7f64c008ac9859, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: db98c7ca5ddd25c4986010664a07440e, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 26c23bf3c8be700448bca9f809e63d8f, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a0d2ad3331d2ff04486a557723d5444b, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3ae9740325fadd44186a91916d42e84c, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 910c236852b35da4d8cb114feaed2e7f, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 658bfd4fe9be1fa40b87b479f83c3360, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f0b33d74c0d08ab4fa1c5255659f8f80, type: 3}
+    - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueProvider-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.072523
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.84085613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.2082505
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a89b6b8048e0f974d9d4f542fe7857d0, type: 3}
 --- !u!1 &171087942
 GameObject:
   m_ObjectHideFlags: 0
@@ -2632,6 +3089,125 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!21 &192289424
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DustParticle(Clone)
+  m_Shader: {fileID: 4800000, guid: fc2655527708b470d9b23bfe28ede3e9, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - VL_SHADOWS
+  - VL_SPOT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3102
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: ed6dc1204147d451d96326c7fedc6727, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cookie2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BlendOp: 0
+    - _Border: 0.5
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DistanceFallOff: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0.1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _FlipbookBlending: 0
+    - _FlipbookMode: 0
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NearClipDistance: 0
+    - _OcclusionStrength: 1
+    - _ParticleDistanceAtten: 100
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _AreaExtents: {r: 0, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _BoundsCenter: {r: 2.3348057, g: 0.6321746, b: -11.696504, a: 0}
+    - _BoundsExtents: {r: 1.5191765, g: 2.230773, b: 1.2857776, a: 0}
+    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _ConeAxis: {r: -0.6115394, g: -2.5561328, b: -0.5240294, a: 7.1824}
+    - _ConeTipData: {r: 2.6405752, g: 2.2782311, b: -11.434489, a: 0}
+    - _Cookie2D_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Cookie2D_SS: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ExtraGeoData: {r: 1.2020617, g: -0.13922922, b: 1, a: 2.68}
+    - _FallOff: {r: 1, g: 2, b: 1, a: 0}
+    - _ParticleLightColor: {r: 2.3316002, g: 1.8265092, b: 1.3307718, a: 2.3316002}
+    - _ShadowIntensity: {r: 0.97, g: 0.029999971, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_BuildTextureStacks: []
 --- !u!43 &240760138
 Mesh:
   m_ObjectHideFlags: 0
@@ -11649,7 +12225,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1388552213}
+  - {fileID: 70055463}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -17188,6 +17764,44 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03485c75c73f4be4b8b70ca0a45fb2d6, type: 3}
+--- !u!84 &682246384
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 90
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_EnableRandomWrite: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!43 &694890773
 Mesh:
   m_ObjectHideFlags: 0
@@ -18190,6 +18804,234 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &761390433
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].content
+      value: So I was right
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: these flowers are the pattern of the clothes I used to make
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: these flowers are the pattern of the clothes I used to make
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: Sewing started as my work
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: and became my hobby after I retired
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: But
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: now with this illness
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: my daughter says
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].content
+      value: "it\u2019s easy for me to forget things"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].content
+      value: "it\u2019s just"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].content
+      value: frustrating
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].content
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[12].content
+      value: "The door\u2019s open now, Doctor"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[13].content
+      value: "Let\u2019s leave this place"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b2a3d9f09e6845a4abd543af35659605, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 530a02a3c4e40d746b6eb9b33917a68b, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 724a014359ff8ec45a2cb6811a3e2b44, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8174d6e94bc479445abce60536b060fe, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 48467feec43a43f4dba05729ea6df57b, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 177eb26d79eae0642bbf2b9c37958d12, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 12728d4c12abd534abd7f7f3a667d243, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 89be066ab9441f945b9692808eae8fd8, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6f28cc15386bc6b469dc806ff4b1ba25, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f07070c1c72a32545b041e745fa868ae, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a7bea43b833d8e84c9fa32df681e6572, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 504dbf3b23726fb4bad72d820d37d3e5, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[12].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e16bf09e787218046ba9bface54716c4, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[13].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3914117c911c92d46a8a2ef085e1f82a, type: 3}
+    - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueProvider-8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.072523
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.84085613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.2082505
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a89b6b8048e0f974d9d4f542fe7857d0, type: 3}
 --- !u!1001 &765814606
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19861,125 +20703,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1964199626}
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!21 &864957123
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: DustParticle(Clone)
-  m_Shader: {fileID: 4800000, guid: fc2655527708b470d9b23bfe28ede3e9, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - VL_SHADOWS
-  - VL_SPOT
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3102
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: ed6dc1204147d451d96326c7fedc6727, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Cookie2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AlphaClip: 0
-    - _Blend: 0
-    - _BlendOp: 0
-    - _Border: 0.5
-    - _BumpScale: 1
-    - _CameraFadingEnabled: 0
-    - _CameraFarFadeDistance: 2
-    - _CameraNearFadeDistance: 1
-    - _ColorMode: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DistanceFallOff: 1
-    - _DistortionBlend: 0.5
-    - _DistortionEnabled: 0
-    - _DistortionStrength: 1
-    - _DistortionStrengthScaled: 0.1
-    - _DstBlend: 0
-    - _EnvironmentReflections: 1
-    - _FlipbookBlending: 0
-    - _FlipbookMode: 0
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _Metallic: 0
-    - _Mode: 0
-    - _NearClipDistance: 0
-    - _OcclusionStrength: 1
-    - _ParticleDistanceAtten: 100
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SoftParticlesEnabled: 0
-    - _SoftParticlesFarFadeDistance: 1
-    - _SoftParticlesNearFadeDistance: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _AreaExtents: {r: 0, g: 0, b: 0, a: 1}
-    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
-    - _BoundsCenter: {r: 2.3348057, g: 0.6321746, b: -11.696504, a: 0}
-    - _BoundsExtents: {r: 1.5191765, g: 2.230773, b: 1.2857776, a: 0}
-    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _ConeAxis: {r: -0.6115394, g: -2.5561328, b: -0.5240294, a: 7.1824}
-    - _ConeTipData: {r: 2.6405752, g: 2.2782311, b: -11.434489, a: 0}
-    - _Cookie2D_Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Cookie2D_SS: {r: 1, g: 1, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ExtraGeoData: {r: 1.2020617, g: -0.13922922, b: 1, a: 2.68}
-    - _FallOff: {r: 1, g: 2, b: 1, a: 0}
-    - _ParticleLightColor: {r: 2.3316002, g: 1.8265092, b: 1.3307718, a: 2.3316002}
-    - _ShadowIntensity: {r: 0.97, g: 0.029999971, b: 0, a: 0}
-    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &870844284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20063,6 +20786,239 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ae1eb20c5caf4ff5974044758a117f1, type: 3}
+--- !u!1001 &874705019
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].content
+      value: Age is cruel, Doctor
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: It takes things from you
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: your strength
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: your sight
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: and your memories
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].content
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].content
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].content
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].content
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[12].content
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[13].content
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 39b7a6dc61b89f44a8b291daea35a20c, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e1e78aa199115934e96e7c9768d0ab87, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c251ad8cdb429a5439c2e558f294dd91, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 930071a50d874e84180ea72d23336113, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 29776f7e223500149bc47fe05fd975d2, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c86e72871da6f2f4c9a6b623534cc19f, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ec190e19e34d423489d4e89b442fde2b, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0dea69794a5c2474b8b02d4fad90e108, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e5b03f95548b8234f8bf1057268a9e31, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 909357fd6e479f245833a73f37296643, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f6468c72048e39e439fd16c1668712d0, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d84cb404b5a68d6468a5df85d5185fc2, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[12].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ac34f1a2555a42a4497b18e7622e9c7a, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[13].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ac0fac4487529804ea3f8c18f33f8ba0, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[14].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d70062b81808f234a86202374b6d900c, type: 3}
+    - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueProvider-9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.072523
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.84085613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.2082505
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a89b6b8048e0f974d9d4f542fe7857d0, type: 3}
 --- !u!1 &877133733
 GameObject:
   m_ObjectHideFlags: 0
@@ -25280,44 +26236,6 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!84 &958624746
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 90
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!4 &961182516 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3043369111107059856, guid: e286e920fee0f9d458ae2d07cfc9156b,
@@ -26809,7 +27727,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967293
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 85713036}
+  m_TargetTexture: {fileID: 1863605522}
   m_TargetDisplay: 0
   m_TargetEye: 0
   m_HDR: 0
@@ -29188,124 +30106,6 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!21 &1244140028
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: DustParticle(Clone)
-  m_Shader: {fileID: 4800000, guid: fc2655527708b470d9b23bfe28ede3e9, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - VL_SPOT
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3102
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: ed6dc1204147d451d96326c7fedc6727, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Cookie2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AlphaClip: 0
-    - _Blend: 0
-    - _BlendOp: 0
-    - _Border: 0.5
-    - _BumpScale: 1
-    - _CameraFadingEnabled: 0
-    - _CameraFarFadeDistance: 2
-    - _CameraNearFadeDistance: 1
-    - _ColorMode: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DistanceFallOff: 1
-    - _DistortionBlend: 0.5
-    - _DistortionEnabled: 0
-    - _DistortionStrength: 1
-    - _DistortionStrengthScaled: 0.1
-    - _DstBlend: 0
-    - _EnvironmentReflections: 1
-    - _FlipbookBlending: 0
-    - _FlipbookMode: 0
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _Metallic: 0
-    - _Mode: 0
-    - _NearClipDistance: 0
-    - _OcclusionStrength: 1
-    - _ParticleDistanceAtten: 6.25
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SoftParticlesEnabled: 0
-    - _SoftParticlesFarFadeDistance: 1
-    - _SoftParticlesNearFadeDistance: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _AreaExtents: {r: 0, g: 0, b: 0, a: 1}
-    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
-    - _BoundsCenter: {r: -0.456, g: 1.4480006, b: -7.1064997, a: 0}
-    - _BoundsExtents: {r: 0.30652934, g: 0.22500005, b: 0.3065294, a: 0}
-    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _ConeAxis: {r: 0, g: 0.45000005, b: -0.00000005364418, a: 0.20249999}
-    - _ConeTipData: {r: -0.456, g: 1.2230005, b: -7.1064997, a: 0}
-    - _Cookie2D_Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Cookie2D_SS: {r: 1, g: 1, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ExtraGeoData: {r: 0.30652934, g: -4.938272, b: 1, a: 0.45}
-    - _FallOff: {r: 1, g: 2, b: 1, a: 0}
-    - _ParticleLightColor: {r: 1.326, g: 1.04, b: 0.75920004, a: 1.326}
-    - _ShadowIntensity: {r: 0, g: 1, b: 0, a: 0}
-    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-  m_BuildTextureStacks: []
 --- !u!43 &1245242225
 Mesh:
   m_ObjectHideFlags: 0
@@ -31820,6 +32620,125 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!21 &1329432661
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DustParticle(Clone)
+  m_Shader: {fileID: 4800000, guid: fc2655527708b470d9b23bfe28ede3e9, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - VL_SPOT
+  m_InvalidKeywords:
+  - _FLIPBOOKBLENDING_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3102
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: ed6dc1204147d451d96326c7fedc6727, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cookie2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BlendOp: 0
+    - _Border: 0.5
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DistanceFallOff: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0.1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _FlipbookBlending: 0
+    - _FlipbookMode: 0
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NearClipDistance: 0
+    - _OcclusionStrength: 1
+    - _ParticleDistanceAtten: 6.25
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _AreaExtents: {r: 0, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _BoundsCenter: {r: -0.456, g: 1.4480006, b: -7.1064997, a: 0}
+    - _BoundsExtents: {r: 0.30652934, g: 0.22500005, b: 0.3065294, a: 0}
+    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _ConeAxis: {r: 0, g: 0.45000005, b: -0.00000005364418, a: 0.20249999}
+    - _ConeTipData: {r: -0.456, g: 1.2230005, b: -7.1064997, a: 0}
+    - _Cookie2D_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Cookie2D_SS: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ExtraGeoData: {r: 0.30652934, g: -4.938272, b: 1, a: 0.45}
+    - _FallOff: {r: 1, g: 2, b: 1, a: 0}
+    - _ParticleLightColor: {r: 1.326, g: 1.04, b: 0.75920004, a: 1.326}
+    - _ShadowIntensity: {r: 0, g: 1, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &1368663207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31945,6 +32864,244 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 77735758}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1376836216
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].content
+      value: Finally,
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: "the TV\u2019s back to normal!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: I used to watch it when the house was quiet
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: I used to watch it when the house was quiet
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: My husband was always out with his camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: My husband was always out with his camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: "The stranger\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: he seems liked the same shows as my husband did
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].content
+      value: he seems liked the same shows as my husband did
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].content
+      value: "I don\u2019t like it"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].content
+      value: but I respect him as a guest
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].content
+      value: Doctor
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[12].content
+      value: could you check under the TV?
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[13].content
+      value: Something feels off
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[14].content
+      value: "like it\u2019s waiting for us"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f465409760d54946b80b3718afb34c1, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c157e71966628b2489d9dd01b0a54c76, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8ecc2180acfb7e641bf7f0b0e36e4a85, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a0492d9108ac47542ba28c1c5a0b16fd, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9a8378c55bb8e5a47910e13514782efe, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ce176fbdab946ac4bbaa95474c403174, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5aa45348e99d15c40aae91dce33defa4, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c8b262d9f19bd464e968f32f6567cac9, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a45f12f23237d8f47a6ae390e9e3d50a, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: dcdd1d091fd0d5b41a5ddabe275bf19c, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 39be046eb9bf79143961567f9ad9744f, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2dadcb3908f3bbd49928bae3d4b7fa42, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[12].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 70d4823d97a5d51409c1027318d055ce, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[13].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5cb67b58a4eddae46b41a18449242872, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[14].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6dceb91e9d125a444a3f8c5908e0aa87, type: 3}
+    - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueProvider-6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.072523
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.84085613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.2082505
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a89b6b8048e0f974d9d4f542fe7857d0, type: 3}
 --- !u!1 &1384194443 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9105319981441150695, guid: f7c5e7e1180c530469c3f4da6a71b23f,
@@ -31963,125 +33120,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1881805688}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1388552213
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: DustParticle(Clone)
-  m_Shader: {fileID: 4800000, guid: fc2655527708b470d9b23bfe28ede3e9, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - VL_SHADOWS
-  - VL_SPOT
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3102
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: ed6dc1204147d451d96326c7fedc6727, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Cookie2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AlphaClip: 0
-    - _Blend: 0
-    - _BlendOp: 0
-    - _Border: 0.5
-    - _BumpScale: 1
-    - _CameraFadingEnabled: 0
-    - _CameraFarFadeDistance: 2
-    - _CameraNearFadeDistance: 1
-    - _ColorMode: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DistanceFallOff: 1
-    - _DistortionBlend: 0.5
-    - _DistortionEnabled: 0
-    - _DistortionStrength: 1
-    - _DistortionStrengthScaled: 0.1
-    - _DstBlend: 0
-    - _EnvironmentReflections: 1
-    - _FlipbookBlending: 0
-    - _FlipbookMode: 0
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _Metallic: 0
-    - _Mode: 0
-    - _NearClipDistance: 0
-    - _OcclusionStrength: 1
-    - _ParticleDistanceAtten: 100
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SoftParticlesEnabled: 0
-    - _SoftParticlesFarFadeDistance: 1
-    - _SoftParticlesNearFadeDistance: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _AreaExtents: {r: 0, g: 0, b: 0, a: 1}
-    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
-    - _BoundsCenter: {r: 4.988, g: 0.15884495, b: -9.472344, a: 0}
-    - _BoundsExtents: {r: 3.199334, g: 2.3858767, b: 3.2605026, a: 0}
-    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _ConeAxis: {r: 0.00000019122986, g: -4.59831, b: -0.12468836, a: 21.16}
-    - _ConeTipData: {r: 4.988, g: 2.458, b: -9.41, a: 0}
-    - _Cookie2D_Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Cookie2D_SS: {r: 1, g: 1, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ExtraGeoData: {r: 3.1993334, g: -0.04725898, b: 1, a: 4.6}
-    - _FallOff: {r: 1, g: 2, b: 1, a: 0}
-    - _ParticleLightColor: {r: 1.9836, g: 1.5538958, b: 1.1321491, a: 1.9836}
-    - _ShadowIntensity: {r: 0.91, g: 0.089999974, b: 0, a: 0}
-    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &1395443068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34108,6 +35146,174 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.68844104, y: 0.0311867, z: 0.6884413}
   m_Center: {x: 0.003136456, y: 0.7555557, z: 0.007318616}
+--- !u!1001 &1475816345
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].content
+      value: Ah, much clearer now
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: I rely on these more every day
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: funny how the smallest things matter so much
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: The stranger once said the dream is the reflection of yourself
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: The stranger once said the dream is the reflection of yourself
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: "maybe they\u2019re right"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: "which you say it\u2019s my memory clips"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: " See if anything\u2019s gone?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b89a85306aff3d748b6ab71230e88e24, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6910dd13026c6254f9ff0700b4ac273c, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fe97d3fd88b8c7047a43fc7eb6cdf113, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 262ee182db8cdb840a889cae5812cb19, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 33004cb8ad0594b44b3f97fd3ca2b025, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9eb322feca2604247aec2ee42c0f9524, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 965c3e83b358f5044843e36f7d20391a, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: afaec484249fbff43bb8b3cb4ef17941, type: 3}
+    - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueProvider-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.072523
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.84085613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.2082505
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a89b6b8048e0f974d9d4f542fe7857d0, type: 3}
 --- !u!4 &1479099105 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8790535306627949839, guid: 395874cb7844d4694a653b1295fc6540,
@@ -34902,6 +36108,239 @@ Transform:
   m_Children: []
   m_Father: {fileID: 69189129}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1538279903
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].content
+      value: I...
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: "I feel like I\u2019ve been here before\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: with someon
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: someone just like you
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: I remember his kindness
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: his habits
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: but not his face
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: Could you take a photo for me?
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].content
+      value: It feels right
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].content
+      value: just like it used to
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].content
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].content
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[12].content
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[13].content
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c86e72871da6f2f4c9a6b623534cc19f, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ec190e19e34d423489d4e89b442fde2b, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0dea69794a5c2474b8b02d4fad90e108, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e5b03f95548b8234f8bf1057268a9e31, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 909357fd6e479f245833a73f37296643, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f6468c72048e39e439fd16c1668712d0, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d84cb404b5a68d6468a5df85d5185fc2, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ac34f1a2555a42a4497b18e7622e9c7a, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ac0fac4487529804ea3f8c18f33f8ba0, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d70062b81808f234a86202374b6d900c, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f6468c72048e39e439fd16c1668712d0, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[11].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d84cb404b5a68d6468a5df85d5185fc2, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[12].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ac34f1a2555a42a4497b18e7622e9c7a, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[13].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ac0fac4487529804ea3f8c18f33f8ba0, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[14].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d70062b81808f234a86202374b6d900c, type: 3}
+    - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueProvider-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.072523
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.84085613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.2082505
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a89b6b8048e0f974d9d4f542fe7857d0, type: 3}
 --- !u!4 &1539938492 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3043369111107059856, guid: e286e920fee0f9d458ae2d07cfc9156b,
@@ -35013,7 +36452,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.91, g: 0.089999974, b: 0, a: 0}
     - _ToLightDir: {r: -0.00000004157171, g: 0.99963266, b: 0.027106166, a: 0}
-    - _WindDirection: {r: 0.13423616, g: 0.08949077, b: 0, a: 43.26238}
+    - _WindDirection: {r: 8.054088, g: 5.36936, b: 0, a: 289.23993}
   m_BuildTextureStacks: []
 --- !u!4 &1558735584 stripped
 Transform:
@@ -35021,6 +36460,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1656748703}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1560752188
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DustParticle(Clone)
+  m_Shader: {fileID: 4800000, guid: fc2655527708b470d9b23bfe28ede3e9, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - VL_SPOT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3102
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: ed6dc1204147d451d96326c7fedc6727, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cookie2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BlendOp: 0
+    - _Border: 0.5
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DistanceFallOff: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0.1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _FlipbookBlending: 0
+    - _FlipbookMode: 0
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NearClipDistance: 0
+    - _OcclusionStrength: 1
+    - _ParticleDistanceAtten: 100
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _AreaExtents: {r: 0, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _BoundsCenter: {r: -0.449, g: 0.62011105, b: -7.081778, a: 0}
+    - _BoundsExtents: {r: 1.2475086, g: 0.81076795, b: 1.2605556, a: 0}
+    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _ConeAxis: {r: 0, g: -1.5797788, b: 0.026443211, a: 2.4964}
+    - _ConeTipData: {r: -0.449, g: 1.4100004, b: -7.095, a: 0}
+    - _Cookie2D_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Cookie2D_SS: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ExtraGeoData: {r: 1.2475086, g: -0.4005768, b: 1, a: 1.58}
+    - _FallOff: {r: 1, g: 2, b: 1, a: 0}
+    - _ParticleLightColor: {r: 2.04, g: 1.6, b: 1.168, a: 2.04}
+    - _ShadowIntensity: {r: 0, g: 1, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &1567586336
 GameObject:
   m_ObjectHideFlags: 0
@@ -40770,7 +42327,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
     - _ToLightDir: {r: -0, g: -1.0000001, b: 0.00000011920929, a: 0}
-    - _WindDirection: {r: 0.13423616, g: 0.08949077, b: 0, a: 43.26238}
+    - _WindDirection: {r: 8.054088, g: 5.36936, b: 0, a: 289.23993}
   m_BuildTextureStacks: []
 --- !u!1 &1634143405
 GameObject:
@@ -42764,7 +44321,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967293
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 958624746}
+  m_TargetTexture: {fileID: 682246384}
   m_TargetDisplay: 0
   m_TargetEye: 0
   m_HDR: 0
@@ -43599,6 +45156,174 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1814320254}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1816975494
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].content
+      value: This...
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: this is the pedal of my sewing table
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: "And that white cloth\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: "so that\u2019s it!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: Doctor
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: bring the cloth and the pedal
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: over to the sewing table by the window
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: "Let\u2019s see what happens"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 231df4ab8afad9f4482d3076b21ed827, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2bbc99459acc5a04a88877b48e21412a, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4a6975ad31a5d0442bfca478fdfe4a1d, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 97988ca01c3c07146af8be232b3f1cef, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a3276b3826dfde94ab62ba210db52814, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ffde47361de26b44280b3fe5545c63a3, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6114d4c842430394db97bfe379b7eaa8, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f2ab8e937c157b44ba2174f5ff608894, type: 3}
+    - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueProvider-7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.072523
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.84085613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.2082505
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a89b6b8048e0f974d9d4f542fe7857d0, type: 3}
 --- !u!1001 &1820580666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47559,6 +49284,242 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7c5e7e1180c530469c3f4da6a71b23f, type: 3}
+--- !u!84 &1863605522
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 90
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_EnableRandomWrite: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
+--- !u!1001 &1875405902
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].content
+      value: This ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: "this is our new apartment\u2019s living room! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: Not quite as many flowers
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: and a huge TV
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: My daughter insisted we live with her
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: My daughter insisted we live with her
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: says living together makes it easier to look after me
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: I can take care of myself just fine!
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].content
+      value: Doctor
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].content
+      value: do you see the desk over there?
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].content
+      value: I remember something important being on it
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e8d158d8678ceeb4296bdb03234ffa13, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e4fda6f7cc59b4c4ebd44b82f13a7924, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d89f0da0cdd6044d9959aa8d4f02ec1, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e8cb15c6bd53da84fbfc33fee504fa54, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bc3f98dc0404f124c82f7baf81c16b25, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 597341d743e63b444b127cfd2c108e1b, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d7179e1cbff6034448ced9d8903c93eb, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e5d925af21057da44b76c5c266cde492, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 885af2d962f86a546a90ea526e042b5c, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 322ffd5dc611bbd4eac7ae40345ec9c6, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e0165e8a20af0994084d053a4a4d4228, type: 3}
+    - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueProvider-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.072523
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.84085613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.2082505
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a89b6b8048e0f974d9d4f542fe7857d0, type: 3}
 --- !u!43 &1877657408
 Mesh:
   m_ObjectHideFlags: 0
@@ -47804,7 +49765,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
     - _ToLightDir: {r: -0, g: 0.99986, b: -0.01673621, a: 0}
-    - _WindDirection: {r: 0.13423616, g: 0.08949077, b: 0, a: 43.26238}
+    - _WindDirection: {r: 8.054088, g: 5.36936, b: 0, a: 289.23993}
   m_BuildTextureStacks: []
 --- !u!1001 &1881805688
 PrefabInstance:
@@ -48863,7 +50824,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
     - _ToLightDir: {r: -0, g: -0, b: -1, a: 0}
-    - _WindDirection: {r: 0.05248283, g: 0.044745386, b: 0, a: 43.26238}
+    - _WindDirection: {r: 5.36936, g: 2.68468, b: 0, a: 289.23993}
   m_BuildTextureStacks: []
 --- !u!1001 &2001681569
 PrefabInstance:
@@ -49303,7 +51264,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.97, g: 0.029999971, b: 0, a: 0}
     - _ToLightDir: {r: 0.22818635, g: 0.9537809, b: 0.19553335, a: 0}
-    - _WindDirection: {r: 0.13423616, g: 0.08949077, b: 0, a: 43.26238}
+    - _WindDirection: {r: 8.054088, g: 5.36936, b: 0, a: 289.23993}
   m_BuildTextureStacks: []
 --- !u!1001 &2033963194
 PrefabInstance:
@@ -49532,6 +51493,184 @@ Material:
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
+--- !u!1001 &2043550294
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].content
+      value: Oh The TV remote
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].content
+      value: "that\u2019s always going missing!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].content
+      value: "The stranger always seems to know where it\u2019s gone though"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].content
+      value: "The stranger always seems to know where it\u2019s gone though"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
+      value: Sometimes on the shelf
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: sometimes on the dining table
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: even under the couch
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: "I\u2019m starting to think he\u2019s the one hiding it"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].content
+      value: "I\u2019m starting to think he\u2019s the one who actually hiding it"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 67d7c79aa0691a849a93a18f167da9d9, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ea146e34967d5f941907892f542a6339, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[2].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7426e613459eb30479475159444eb6ee, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bf7d092a5a61a4646a30acd091979820, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b8630d176c884dc439bd917522117374, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef28f8fc46e0ac844a4b3a1a522607f7, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[6].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 90c6d2e25e6198648be7c6a3afe222a1, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ea807248d91c9f499124c089b888c71, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 79d4592a804e70a4d93e34984bd233c5, type: 3}
+    - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueProvider-5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.072523
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.84085613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.2082505
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497089763371847338, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a89b6b8048e0f974d9d4f542fe7857d0, type: 3}
 --- !u!1001 &2044197919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49865,124 +52004,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.68844104, y: 0.0311867, z: 0.6884413}
   m_Center: {x: 0.003136456, y: 0.7555557, z: 0.007318616}
---- !u!21 &2077863769
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: DustParticle(Clone)
-  m_Shader: {fileID: 4800000, guid: fc2655527708b470d9b23bfe28ede3e9, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - VL_SPOT
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3102
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: ed6dc1204147d451d96326c7fedc6727, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Cookie2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AlphaClip: 0
-    - _Blend: 0
-    - _BlendOp: 0
-    - _Border: 0.5
-    - _BumpScale: 1
-    - _CameraFadingEnabled: 0
-    - _CameraFarFadeDistance: 2
-    - _CameraNearFadeDistance: 1
-    - _ColorMode: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DistanceFallOff: 1
-    - _DistortionBlend: 0.5
-    - _DistortionEnabled: 0
-    - _DistortionStrength: 1
-    - _DistortionStrengthScaled: 0.1
-    - _DstBlend: 0
-    - _EnvironmentReflections: 1
-    - _FlipbookBlending: 0
-    - _FlipbookMode: 0
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _Metallic: 0
-    - _Mode: 0
-    - _NearClipDistance: 0
-    - _OcclusionStrength: 1
-    - _ParticleDistanceAtten: 100
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SoftParticlesEnabled: 0
-    - _SoftParticlesFarFadeDistance: 1
-    - _SoftParticlesNearFadeDistance: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _AreaExtents: {r: 0, g: 0, b: 0, a: 1}
-    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
-    - _BoundsCenter: {r: -0.449, g: 0.62011105, b: -7.081778, a: 0}
-    - _BoundsExtents: {r: 1.2475086, g: 0.81076795, b: 1.2605556, a: 0}
-    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _ConeAxis: {r: 0, g: -1.5797788, b: 0.026443211, a: 2.4964}
-    - _ConeTipData: {r: -0.449, g: 1.4100004, b: -7.095, a: 0}
-    - _Cookie2D_Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Cookie2D_SS: {r: 1, g: 1, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ExtraGeoData: {r: 1.2475086, g: -0.4005768, b: 1, a: 1.58}
-    - _FallOff: {r: 1, g: 2, b: 1, a: 0}
-    - _ParticleLightColor: {r: 2.04, g: 1.6, b: 1.168, a: 2.04}
-    - _ShadowIntensity: {r: 0, g: 1, b: 0, a: 0}
-    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &2080122257
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50125,7 +52146,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 864957123}
+  - {fileID: 192289424}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -55679,12 +57700,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2077863769}
+      objectReference: {fileID: 1560752188}
     - target: {fileID: 8695070624424367121, guid: 7109d9981de8ff04b9e81b1f2dc11de3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1244140028}
+      objectReference: {fileID: 1329432661}
     - target: {fileID: 8823529550801052751, guid: 7109d9981de8ff04b9e81b1f2dc11de3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -55864,3 +57885,13 @@ SceneRoots:
   - {fileID: 884444398}
   - {fileID: 1052752193}
   - {fileID: 86196778}
+  - {fileID: 1875405902}
+  - {fileID: 1475816345}
+  - {fileID: 56681111}
+  - {fileID: 165843909}
+  - {fileID: 2043550294}
+  - {fileID: 1376836216}
+  - {fileID: 1816975494}
+  - {fileID: 761390433}
+  - {fileID: 874705019}
+  - {fileID: 1538279903}

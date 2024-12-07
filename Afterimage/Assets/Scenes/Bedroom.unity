@@ -12637,82 +12637,92 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].content
-      value: The ceiling is a record? What a curious dream world this is
+      value: 'The ceiling is a record? '
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[1].content
-      value: "But\u2026"
+      value: What a curious dream world this is!
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[2].content
-      value: "it\u2019s broken now sadly"
+      value: But...
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[3].content
-      value: ' It looks so familiar'
+      value: "it\u2019s broken now sadly"
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[4].content
-      value: "so\u2026nostalgic"
+      value: ' It looks so familiar'
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[5].content
-      value: Doctor
+      value: "so\u2026nostalgic"
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[6].content
+      value: Doctor
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
       value: ' would you mind taking a look at it?'
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: a0cdd0831ef03be4783fe09c2cf46d1c, type: 3}
+      objectReference: {fileID: 8300000, guid: 014107ca2e738f04590c5aba6d6406b7, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[1].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: b84d0becac3b8184a96672f0ce5c2c7a, type: 3}
+      objectReference: {fileID: 8300000, guid: e0af36a855d5fd74187b5348533293a3, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[2].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: ed8292bc7d86675428608966ebd16dcd, type: 3}
+      objectReference: {fileID: 8300000, guid: 9bceca0b44d1ab640b0e556e21e886cd, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[3].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 46f94f7a0f8deea468468f8ef6abb12a, type: 3}
+      objectReference: {fileID: 8300000, guid: 157fc5af535ffa44b9a2934a5340ff45, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[4].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: bf6afc0f946ea3d4094e9db8ee42c510, type: 3}
+      objectReference: {fileID: 8300000, guid: 2545888435222b442bbf6bee124cf72a, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[5].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 77b397f1779f0c541acfe0115d34329b, type: 3}
+      objectReference: {fileID: 8300000, guid: 18b76f8791159f24cae2f1b3aea1d9d4, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[6].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: bae57d6b580fb1246ad65012d6def48f, type: 3}
+      objectReference: {fileID: 8300000, guid: 855798bb652705044a5b1a9d14fb3e50, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 82836a939d87b2b4bad49a5e5cb63c0d, type: 3}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: m_Name
-      value: DialogueProvider-7
+      value: DialogueProvider-6
       objectReference: {fileID: 0}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
@@ -13233,7 +13243,7 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.size
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
@@ -13248,37 +13258,57 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[2].content
-      value: Never leave a cup by the bed
+      value: I forgot to put the cup back on the desk again!
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[3].content
+      value: Never leave a cup by the bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].content
       value: you never know how far that hand will reach in the night
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].content
+      value: ' you never know  how far that hand will reach in the night'
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 6adf29ad5d001764aba7f5b788a39e57, type: 3}
+      objectReference: {fileID: 8300000, guid: b72e7c4317d6a36479d2cd1d13903ef3, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[1].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 3a54dcfcf2ef6a443a9d45542d77bd1e, type: 3}
+      objectReference: {fileID: 8300000, guid: e0af36a855d5fd74187b5348533293a3, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[2].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: dffdfd83d98f13e469f84d2ff18788c5, type: 3}
+      objectReference: {fileID: 8300000, guid: 077c859b48bac9a4dbeef7351ee6072a, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[3].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: eedd193895d9bed4dae061dd5a82dbee, type: 3}
+      objectReference: {fileID: 8300000, guid: 537e434f00748424cad900b78bbb5a23, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[4].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a435ace3afc725d44ac48a16362efb85, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[5].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 193515c29cd92fe4ea6d486ad8534bfa, type: 3}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: m_Name
-      value: DialogueProvider-6
+      value: DialogueProvider-5
       objectReference: {fileID: 0}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
@@ -13432,7 +13462,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
     - _ToLightDir: {r: -0.19014144, g: 0.7864062, b: -0.58771724, a: 0}
-    - _WindDirection: {r: 0.0206, g: 0.013733333, b: 0, a: 2.472136}
+    - _WindDirection: {r: 3.9729288, g: 2.6486182, b: 0, a: 271.93497}
   m_BuildTextureStacks: []
 --- !u!1 &536848290
 GameObject:
@@ -20649,7 +20679,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
     - _ToLightDir: {r: 0.010316448, g: 0.58154875, b: 0.8134462, a: 0}
-    - _WindDirection: {r: 0.0206, g: 0.013733333, b: 0, a: 2.472136}
+    - _WindDirection: {r: 3.9729288, g: 2.6486182, b: 0, a: 271.93497}
   m_BuildTextureStacks: []
 --- !u!1 &871282267
 GameObject:
@@ -35872,7 +35902,7 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.size
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
@@ -35887,7 +35917,7 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[2].content
-      value: ' My daughter used to think'
+      value: My daughter used to think
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
@@ -35897,32 +35927,32 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[4].content
-      value: His disappointed little face would make me laugh every time
+      value: "I couldn\u2019t blame her, though"
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[5].content
-      value: "I couldn\u2019t blame him though"
+      value: the box has 'cookies' literally written on it
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[6].content
-      value: the box has 'cookies' literally written on it
-      objectReference: {fileID: 0}
-    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
-        type: 3}
-      propertyPath: dialoguePieces.Array.data[7].content
-      value: the box has 'cookies' literally written on it
-      objectReference: {fileID: 0}
-    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
-        type: 3}
-      propertyPath: dialoguePieces.Array.data[8].content
       value: Doctor
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
+      value: ' could you take a look to the album '
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[8].content
+      value: and see where it orginal suppose to be?
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
       propertyPath: dialoguePieces.Array.data[9].content
-      value: I think it might help me remember more
+      value: ' I think it might help me remember more'
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
@@ -35948,37 +35978,37 @@ PrefabInstance:
         type: 3}
       propertyPath: dialoguePieces.Array.data[3].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 831f5a268e0d67740adebc269917e1b9, type: 3}
+      objectReference: {fileID: 8300000, guid: 720feda1ab316c041861dd2c23d9b362, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[4].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d21d6fc39e98fe7498947561dc4d5bc7, type: 3}
+      objectReference: {fileID: 8300000, guid: e8cc15ecfd6e9974faca36ade9a1c198, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[5].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 4a2ea1e62b02fcf41b0a5207891d8d71, type: 3}
+      objectReference: {fileID: 8300000, guid: cc9dc65b315bab642934fc67b8059a47, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[6].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 1cac9078aa2c29749b21a783473f0166, type: 3}
+      objectReference: {fileID: 8300000, guid: e7398df58f5432e478a07ea6396ea793, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[7].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 1cac9078aa2c29749b21a783473f0166, type: 3}
+      objectReference: {fileID: 8300000, guid: 7b0a307cbb576c7498bbd50f8542b673, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[8].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 13787e407e639e2428f3e20dcec45bac, type: 3}
+      objectReference: {fileID: 8300000, guid: 8472d9c12439bd941abc64d3f6953aac, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[9].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 1c15bb7ccbfcad7478ee4f7cdfadb78d, type: 3}
+      objectReference: {fileID: 8300000, guid: 255a7d81df735894197bfc962f1f0af7, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[10].audioClip
@@ -37443,7 +37473,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967293
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 1963255808}
+  m_TargetTexture: {fileID: 1917039073}
   m_TargetDisplay: 0
   m_TargetEye: 0
   m_HDR: 0
@@ -46240,125 +46270,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!21 &1416040709
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: DustParticle(Clone)
-  m_Shader: {fileID: 4800000, guid: fc2655527708b470d9b23bfe28ede3e9, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - VL_SHADOWS
-  - VL_SPOT
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3102
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: ed6dc1204147d451d96326c7fedc6727, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Cookie2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AlphaClip: 0
-    - _Blend: 0
-    - _BlendOp: 0
-    - _Border: 0.5
-    - _BumpScale: 1
-    - _CameraFadingEnabled: 0
-    - _CameraFarFadeDistance: 2
-    - _CameraNearFadeDistance: 1
-    - _ColorMode: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DistanceFallOff: 1
-    - _DistortionBlend: 0.5
-    - _DistortionEnabled: 0
-    - _DistortionStrength: 1
-    - _DistortionStrengthScaled: 0.1
-    - _DstBlend: 0
-    - _EnvironmentReflections: 1
-    - _FlipbookBlending: 0
-    - _FlipbookMode: 0
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _Metallic: 0
-    - _Mode: 0
-    - _NearClipDistance: 0
-    - _OcclusionStrength: 1
-    - _ParticleDistanceAtten: 45.8329
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SoftParticlesEnabled: 0
-    - _SoftParticlesFarFadeDistance: 1
-    - _SoftParticlesNearFadeDistance: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _AreaExtents: {r: 0, g: 0, b: 0, a: 1}
-    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
-    - _BoundsCenter: {r: 2.9905257, g: 1.4773715, b: 3.7604823, a: 0}
-    - _BoundsExtents: {r: 1.6388618, g: 4.646735, b: 5.596856, a: 0}
-    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _ConeAxis: {r: -0.118948646, g: -6.705257, b: -9.379035, a: 132.94089}
-    - _ConeTipData: {r: 3.05, g: 4.83, b: 8.45, a: 0}
-    - _Cookie2D_Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Cookie2D_SS: {r: 1, g: 1, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ExtraGeoData: {r: 1.558546, g: -0.00752214, b: 1, a: 11.53}
-    - _FallOff: {r: 1, g: 2, b: 1, a: 0}
-    - _ParticleLightColor: {r: 2.5132, g: 2.5132, b: 2.5132, a: 2.5132}
-    - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
-    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-  m_BuildTextureStacks: []
 --- !u!43 &1425273174
 Mesh:
   m_ObjectHideFlags: 0
@@ -58736,6 +58647,44 @@ Transform:
   - {fileID: 896735185}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &1703840473
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 90
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_EnableRandomWrite: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &1705198330
 GameObject:
   m_ObjectHideFlags: 0
@@ -59619,6 +59568,125 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!21 &1739557419
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DustParticle(Clone)
+  m_Shader: {fileID: 4800000, guid: fc2655527708b470d9b23bfe28ede3e9, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - VL_SHADOWS
+  - VL_SPOT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3102
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: ed6dc1204147d451d96326c7fedc6727, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cookie2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BlendOp: 0
+    - _Border: 0.5
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DistanceFallOff: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0.1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _FlipbookBlending: 0
+    - _FlipbookMode: 0
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NearClipDistance: 0
+    - _OcclusionStrength: 1
+    - _ParticleDistanceAtten: 45.8329
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _AreaExtents: {r: 0, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _BoundsCenter: {r: 2.9905257, g: 1.4773715, b: 3.7604823, a: 0}
+    - _BoundsExtents: {r: 1.6388618, g: 4.646735, b: 5.596856, a: 0}
+    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _ConeAxis: {r: -0.118948646, g: -6.705257, b: -9.379035, a: 132.94089}
+    - _ConeTipData: {r: 3.05, g: 4.83, b: 8.45, a: 0}
+    - _Cookie2D_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Cookie2D_SS: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ExtraGeoData: {r: 1.558546, g: -0.00752214, b: 1, a: 11.53}
+    - _FallOff: {r: 1, g: 2, b: 1, a: 0}
+    - _ParticleLightColor: {r: 2.5132, g: 2.5132, b: 2.5132, a: 2.5132}
+    - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_BuildTextureStacks: []
 --- !u!43 &1744768658
 Mesh:
   m_ObjectHideFlags: 0
@@ -62408,44 +62476,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!84 &1856310097
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 90
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!43 &1876951224
 Mesh:
   m_ObjectHideFlags: 0
@@ -63428,6 +63458,44 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!84 &1917039073
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 90
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_EnableRandomWrite: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!43 &1932980607
 Mesh:
   m_ObjectHideFlags: 0
@@ -64365,44 +64433,6 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!84 &1963255808
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 90
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1 &1964199625
 GameObject:
   m_ObjectHideFlags: 0
@@ -64813,7 +64843,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967293
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 1856310097}
+  m_TargetTexture: {fileID: 1703840473}
   m_TargetDisplay: 0
   m_TargetEye: 0
   m_HDR: 0
@@ -65193,62 +65223,62 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.size
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].content
-      value: Ahh
+      value: "Ah, this is Teresa\u2019s record"
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[1].content
-      value: "This is Teresa\u2019s record"
-      objectReference: {fileID: 0}
-    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
-        type: 3}
-      propertyPath: dialoguePieces.Array.data[2].content
       value: one of my favorites!
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
-      propertyPath: dialoguePieces.Array.data[3].content
-      value: She was banned for a time
-      objectReference: {fileID: 0}
-    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
-        type: 3}
-      propertyPath: dialoguePieces.Array.data[4].content
-      value: "so getting this record wasn\u2019t easy"
-      objectReference: {fileID: 0}
-    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
-        type: 3}
-      propertyPath: dialoguePieces.Array.data[5].content
+      propertyPath: dialoguePieces.Array.data[2].content
       value: I used to treasure it
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
-      propertyPath: dialoguePieces.Array.data[6].content
+      propertyPath: dialoguePieces.Array.data[3].content
       value: but my husband
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
-      propertyPath: dialoguePieces.Array.data[7].content
+      propertyPath: dialoguePieces.Array.data[4].content
       value: so clumsy
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
-      propertyPath: dialoguePieces.Array.data[8].content
+      propertyPath: dialoguePieces.Array.data[5].content
       value: accidentally broke it when we moved out
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
-      propertyPath: dialoguePieces.Array.data[9].content
+      propertyPath: dialoguePieces.Array.data[6].content
+      value: accidentally broke it when we moved out
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[7].content
       value: Doctor
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
-      propertyPath: dialoguePieces.Array.data[10].content
+      propertyPath: dialoguePieces.Array.data[8].content
       value: could you place it on the player and let it spin again
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[9].content
+      value: could you place it on the player and let it spin again
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[10].content
+      value: "It\u2019s been ages since I last heard it"
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
@@ -65259,57 +65289,57 @@ PrefabInstance:
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: cc8014316a2a58c4c86b0fb4ae328550, type: 3}
+      objectReference: {fileID: 8300000, guid: 33754e996f2b9944d996334ad2b3d857, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[1].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 71efb1341549de94198d8eb90a7bd2c0, type: 3}
+      objectReference: {fileID: 8300000, guid: a9c7b48f579032b4f9b41d4b4c1a9597, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[2].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: fa3ea0ed3c84c1a4caaf87d8ba181e36, type: 3}
+      objectReference: {fileID: 8300000, guid: cc4f9dd5aea6b3544b88087c22e2028a, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[3].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: db15802dd4937e740b818cfb58ad04e8, type: 3}
+      objectReference: {fileID: 8300000, guid: fe0a40a8b84583842aa3b3cd3b55d883, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[4].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 61df22701d67d834fa6544c0f2171312, type: 3}
+      objectReference: {fileID: 8300000, guid: 71945cac0a132a844ad70bc9c9663b12, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[5].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d5a4ae5ae3133774fa9f4bf08562c091, type: 3}
+      objectReference: {fileID: 8300000, guid: 132829feef9044643b6f6a409272b8e6, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[6].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 38cd19320443470498c093c9c4854c16, type: 3}
+      objectReference: {fileID: 8300000, guid: 390b2887bc9ee5b48bf69085c9d501a1, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[7].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 2d20c902e2c8ea643969542c6bdb56e7, type: 3}
+      objectReference: {fileID: 8300000, guid: f549fa423419bfb45883402584614e6b, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[8].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: f0b1fd410ef7bbb42a2e6e03b8cbbebb, type: 3}
+      objectReference: {fileID: 8300000, guid: 9c2ffc9441b9c8b4a90921b0d88d723d, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[9].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 3304d561be51264488be327ac9acf511, type: 3}
+      objectReference: {fileID: 8300000, guid: 5f7cd9126f9b023408ade0de5fabf6a2, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[10].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 8a2f892ba40e14544bff17afec21a42e, type: 3}
+      objectReference: {fileID: 8300000, guid: 3a3cf7c7df4ee50479e8d12aaa6cf578, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[11].audioClip
@@ -65318,7 +65348,7 @@ PrefabInstance:
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: m_Name
-      value: DialogueProvider-8
+      value: DialogueProvider-7
       objectReference: {fileID: 0}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
@@ -66051,7 +66081,7 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.size
-      value: 19
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
@@ -66071,182 +66101,212 @@ PrefabInstance:
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[3].content
-      value: "When my husband was still working in the army\u2019s newspaper department"
+      value: "It\u2019s been so long since I saw this place like this"
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[4].content
-      value: ' we lived in this cozy little apartment'
+      value: ' When my husband was still working in the national newspaper department'
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[5].content
-      value: We stayed here
+      value: ' When my husband was still working in the national newspaper department'
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[6].content
-      value: until our daughter insisted we move to her new appartement
+      value: We lived in this cozy little apartment
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[7].content
-      value: But oh
+      value: We stayed here
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[8].content
-      value: the afternoons I spent here
+      value: until our daughter grow up
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[9].content
-      value: alone by the desk with my sewing
+      value: and insisted we move to her new appartement
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[10].content
-      value: "Teresa\u2019s \u2018Goodbye Again\u2019 playing softly"
+      value: The afternoons I spent here
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[11].content
-      value: and my little grandson napping beside me
+      value: ' alone by the desk with my sewing'
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[12].content
-      value: ' It just'
+      value: "Teresa\u2019s song playing softly"
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[13].content
-      value: made me feel so at peace
+      value: and my daugther napping beside me
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[14].content
-      value: so happy
+      value: ' It just'
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[15].content
-      value: Doctor
+      value: made me feel so at peace
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[16].content
-      value: do you see that door over there?
+      value: so happy
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[17].content
-      value: " I don\u2019t remember a door in that spot"
+      value: Doctor
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[18].content
+      value: do you see that door over there?
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[19].content
+      value: " I don\u2019t remember a door in that spot"
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[20].content
+      value: could you check it for me?
+      objectReference: {fileID: 0}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[21].content
       value: could you check it for me?
       objectReference: {fileID: 0}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[0].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 55ad35e406704a94aa80495d1bf709c2, type: 3}
+      objectReference: {fileID: 8300000, guid: 0f144d28f2ac4ca4e9fc24eb0a4d4441, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[1].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: a0365b7fe1b98f3409322f403825cef6, type: 3}
+      objectReference: {fileID: 8300000, guid: c2b9073bb84ed81499157db5a005905f, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[2].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 3dd46d9e1ead2b545a4249362398bb85, type: 3}
+      objectReference: {fileID: 8300000, guid: e3331e2b87e618f4d9dc7718bba0e12f, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[3].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 2256cb0801949444299cf9fe877d68a0, type: 3}
+      objectReference: {fileID: 8300000, guid: 4dee3b322b9ea9346b65bbfa1cf33e42, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[4].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 2740775c11c3bf949aa6b65a9b274187, type: 3}
+      objectReference: {fileID: 8300000, guid: 931160ed185f7b148a89b11e6b000b0b, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[5].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: ea7007d749f7007468221a2455cba904, type: 3}
+      objectReference: {fileID: 8300000, guid: b5c4342f53a94bd4fba09987dabed8fc, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[6].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 68e26b3945d73da4c8461f9ff1163c53, type: 3}
+      objectReference: {fileID: 8300000, guid: 09a066dd0031d154e979909f5ec7ff8a, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[7].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 2fb75d6edfc21214f86e1314b9acb0b3, type: 3}
+      objectReference: {fileID: 8300000, guid: d9470191af17ded48b5120385baa76c7, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[8].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 401133cf5563ab147885dd2264756949, type: 3}
+      objectReference: {fileID: 8300000, guid: 6b402a95eaa2150438ab094c9444dc50, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[9].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: f07c558f1aede4c4c867adb04ccedd09, type: 3}
+      objectReference: {fileID: 8300000, guid: 1270dfa29beed9047a4e2d4be51d580e, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[10].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 2324c7fb4bac2504bb61c9c3501d36d8, type: 3}
+      objectReference: {fileID: 8300000, guid: 68ae1e8baa4206945998052b2fecc75b, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[11].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 7c1713a3ab91902438c0474329dc94ec, type: 3}
+      objectReference: {fileID: 8300000, guid: 9606fe21733cda448ba859ba0ed2fe6a, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[12].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: c2991d001821cea49ab22cf2c607bc62, type: 3}
+      objectReference: {fileID: 8300000, guid: 243f09407578aa84eb5ae7b5563e3da0, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[13].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: a899013da90c41943af1046f08b6006d, type: 3}
+      objectReference: {fileID: 8300000, guid: f7379c8c958f49a4e9630fcc6dcb9deb, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[14].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d1dd8a2e0d31bc748bf6811ab4be154e, type: 3}
+      objectReference: {fileID: 8300000, guid: 6b1dbca2b88bf3d4b9acdff196d88406, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[15].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 5d9c988c3df0658498a7f66588a3cd15, type: 3}
+      objectReference: {fileID: 8300000, guid: e6597bc53017a2241875849b84f1a451, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[16].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 469d2ca081a68b74499cf45511955299, type: 3}
+      objectReference: {fileID: 8300000, guid: 9690b448122801c4f8a0b5134447804a, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[17].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: fc4ad38b3634f9c46b38f84a3b0d94fd, type: 3}
+      objectReference: {fileID: 8300000, guid: f14fa91783e61064983771e75c4c3a9b, type: 3}
     - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: dialoguePieces.Array.data[18].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 243706cdbf8470049a5d6577f505b22f, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[19].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e733275dc4f42db40b3219bfaa296c6c, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[20].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8214d0808a62d494699217c38b73d967, type: 3}
+    - target: {fileID: 132845280418048984, guid: a89b6b8048e0f974d9d4f542fe7857d0,
+        type: 3}
+      propertyPath: dialoguePieces.Array.data[21].audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 3d6689dad8615944496c4b6b2f627654, type: 3}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
       propertyPath: m_Name
-      value: DialogueProvider-9
+      value: DialogueProvider-8
       objectReference: {fileID: 0}
     - target: {fileID: 2627923493049321224, guid: a89b6b8048e0f974d9d4f542fe7857d0,
         type: 3}
@@ -67749,7 +67809,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1416040709}
+      objectReference: {fileID: 1739557419}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

@@ -37,6 +37,7 @@ Material:
   - _FOLDLIGHTINGEFFECTS_ON
   - _FOLDLIGHTING_ON
   - _FOLDOUTLINE_ON
+  - _FOLDRENDERING_ON
   - _FOLDWAVE_ON
   - _NORMALSURFACEOUTLINE_ON
   - _USEFLATTEXTURE_ON
@@ -133,7 +134,7 @@ Material:
     - _EmissionShadowRatio: 1
     - _EmissionUVSource: 0
     - _FlutterAmount: 4.6
-    - _FlutterFramerate: 13
+    - _FlutterFramerate: 8
     - _FlutterNoiseScale: 3.49
     - _FlutterOffset: 0
     - _FlutterSensitivity: 1

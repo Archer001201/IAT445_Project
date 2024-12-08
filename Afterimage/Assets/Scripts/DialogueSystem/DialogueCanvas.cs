@@ -35,10 +35,10 @@ namespace DialogueSystem
             EventHandler.onDialogue -= StartDialogueCoroutine;
         }
 
-        private void StartDialogueCoroutine(List<DialoguePiece> pieces)
+        private void StartDialogueCoroutine(DialogueProvider provider)
         {
             if (dialogueCoroutine != null) return;
-            dialogueCoroutine = StartCoroutine(PlayDialogue(pieces));
+            dialogueCoroutine = StartCoroutine(PlayDialogue(provider));
         }
 
         private void StopDialogueCoroutine()
@@ -48,11 +48,11 @@ namespace DialogueSystem
             dialogueCoroutine = null;
         }
 
-        private IEnumerator PlayDialogue(List<DialoguePiece> pieces)
+        private IEnumerator PlayDialogue(DialogueProvider provider)
         {
             dialoguePanel.SetActive(true);
-            locomotion.SetMovement(false);
-            foreach (var piece in pieces)
+            locomotion.SetMovement(provider.canMove);
+            foreach (var piece in provider.dialoguePieces)
             {
                 // yield return new WaitForSeconds(0.5f);
                 contentText.text = piece.content;
@@ -60,6 +60,7 @@ namespace DialogueSystem
                 audioSource.Play();
                 yield return new WaitUntil(() => !audioSource.isPlaying);
             }
+            provider.onFinishedEvent?.Invoke();
             dialoguePanel.SetActive(false);
             locomotion.SetMovement(true);
             StopDialogueCoroutine();

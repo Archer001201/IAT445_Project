@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: outlineV2 Variant
+  m_Shader: {fileID: 4800000, guid: 7b1800ad42ed17b40aa863e055328b8e, type: 3}
+  m_Parent: {fileID: 2100000, guid: 5a5e62107631a034b80810ac9f2184a1, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ADDFLUTTERING_ON
+  - _ADDOUTLINE_ON
+  - _CLAMPADJUSTMENTS_ON
+  - _CLIPTRIPLANAR_ON
+  - _FOLDCOLOR_ON
+  - _FOLDEFFECTS_ON
+  - _FOLDFLUTTERING_ON
+  - _FOLDLIGHTINGEFFECTS_ON
+  - _FOLDLIGHTING_ON
+  - _FOLDOUTLINE_ON
+  - _NORMALSURFACEOUTLINE_ON
+  - _USEFLATTEXTURE_ON
+  - _USEFLUTTER_ON
+  - _USEOUTLINES_ON
+  - _USESWAY_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 0fae897fcecb83844ab6adca568a9381, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddOutline: 0
+    - _ColorNumbers: 1
+    - _FoldOutline: 0
+    - _FoldTextures: 1
+    - _UseOutlines: 0
+    m_Colors: []
+  m_BuildTextureStacks: []

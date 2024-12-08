@@ -28,7 +28,6 @@ Material:
   m_InvalidKeywords:
   - _ADDFLUTTERING_ON
   - _ADDOUTLINE_ON
-  - _ADDWAVE_ON
   - _CLAMPADJUSTMENTS_ON
   - _CLIPTRIPLANAR_ON
   - _FOLDCOLOR_ON
@@ -37,7 +36,6 @@ Material:
   - _FOLDLIGHTINGEFFECTS_ON
   - _FOLDLIGHTING_ON
   - _FOLDOUTLINE_ON
-  - _FOLDWAVE_ON
   - _NORMALSURFACEOUTLINE_ON
   - _USEFLATTEXTURE_ON
   - _USEFLUTTER_ON
@@ -132,7 +130,7 @@ Material:
     - _EmissionLightRatio: 1
     - _EmissionShadowRatio: 1
     - _EmissionUVSource: 0
-    - _FlutterAmount: 2
+    - _FlutterAmount: 4.6
     - _FlutterFramerate: 6
     - _FlutterNoiseScale: 10
     - _FlutterOffset: 0

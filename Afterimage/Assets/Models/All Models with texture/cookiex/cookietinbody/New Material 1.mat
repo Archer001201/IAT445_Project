@@ -135,9 +135,13 @@ Material:
     - _UseEmissiveMap: 0
     - _UseMetallicMap: 1
     - _UseNormalMap: 1
+<<<<<<< Updated upstream
     - _UseRoughnessMap: 0
     - _Use_Metallic_Texture: 1
     - _Width: 0
+=======
+    - _UseRoughnessMap: 1
+>>>>>>> Stashed changes
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 1

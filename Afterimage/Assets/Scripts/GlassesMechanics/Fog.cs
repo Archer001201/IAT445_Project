@@ -12,6 +12,7 @@ namespace GlassesMechanics
         private void Start()
         {
             EventHandler.onGlassesStateChange += ChangeVisibleState;
+            ChangeVisibleState(false);
         }
 
         public void ChangeVisibleState(bool objIsVisible)

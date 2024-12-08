@@ -1516,7 +1516,7 @@ MonoBehaviour:
   cameraTransform: {fileID: 907370015}
   positionOffset: {x: -0.3, y: -1, z: -0.1}
   localRotationOffset: {x: 0.25881913, y: 0, z: 0, w: -0.9659258}
-  allowAttach: 0
+  allowAttach: 1
   playerCollider: {fileID: 907370014}
   itemCollider: {fileID: 418039067}
 --- !u!850595691 &441569740
@@ -2001,7 +2001,7 @@ PrefabInstance:
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.67
+      value: 6.06
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
@@ -2011,7 +2011,7 @@ PrefabInstance:
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.34
+      value: -9.76
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
@@ -3619,8 +3619,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf7ae100c1f24d8d85357d01c01b5a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playInEditor: 0
-  initializePosition: 1
+  playInEditor: 1
+  initializePosition: 0
   currentSceneIndex: 0
   sceneList:
   - Tutorial_Prototype
@@ -4830,17 +4830,17 @@ PrefabInstance:
     - target: {fileID: 3403715715709188592, guid: 47ea0c887f26e48649ebc088fe715e27,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.8
+      value: 4.13
       objectReference: {fileID: 0}
     - target: {fileID: 3403715715709188592, guid: 47ea0c887f26e48649ebc088fe715e27,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.581
+      value: 1.083
       objectReference: {fileID: 0}
     - target: {fileID: 3403715715709188592, guid: 47ea0c887f26e48649ebc088fe715e27,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.863
+      value: -8.81
       objectReference: {fileID: 0}
     - target: {fileID: 3403715715709188592, guid: 47ea0c887f26e48649ebc088fe715e27,
         type: 3}
@@ -5030,7 +5030,7 @@ PrefabInstance:
     - target: {fileID: 5291912081204234581, guid: 47ea0c887f26e48649ebc088fe715e27,
         type: 3}
       propertyPath: allowAttach
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5291912081204234581, guid: 47ea0c887f26e48649ebc088fe715e27,
         type: 3}

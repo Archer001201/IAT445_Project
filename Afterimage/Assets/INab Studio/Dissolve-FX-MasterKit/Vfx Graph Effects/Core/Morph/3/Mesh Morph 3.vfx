@@ -2081,8 +2081,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_Disabled: 0
   m_ActivationSlot: {fileID: 8926484042661621494}
-  m_Subgraph: {fileID: 5371698748595113096, guid: fbce46c9d4e8b53469d19e114b4ff11f,
-    type: 3}
+  m_Subgraph: {fileID: 5371698748595113096, guid: fbce46c9d4e8b53469d19e114b4ff11f, type: 3}
 --- !u!114 &8926484042661620475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2400,8 +2399,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_Disabled: 0
   m_ActivationSlot: {fileID: 8926484042661621501}
-  m_Subgraph: {fileID: 5371698748595113096, guid: 38a3df4f559843e4bbaa369e8d41cdc4,
-    type: 3}
+  m_Subgraph: {fileID: 5371698748595113096, guid: 38a3df4f559843e4bbaa369e8d41cdc4, type: 3}
 --- !u!114 &8926484042661620483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2839,8 +2837,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_Disabled: 0
   m_ActivationSlot: {fileID: 8926484042661621500}
-  m_Subgraph: {fileID: 5371698748595113096, guid: 02977d84655036c47b22295d92bf646e,
-    type: 3}
+  m_Subgraph: {fileID: 5371698748595113096, guid: 02977d84655036c47b22295d92bf646e, type: 3}
 --- !u!114 &8926484042661620521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4189,8 +4186,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_Disabled: 0
   m_ActivationSlot: {fileID: 8926484042661621495}
-  m_Subgraph: {fileID: 5371698748595113096, guid: 02977d84655036c47b22295d92bf646e,
-    type: 3}
+  m_Subgraph: {fileID: 5371698748595113096, guid: 02977d84655036c47b22295d92bf646e, type: 3}
 --- !u!114 &8926484042661620622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8588,6 +8584,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 081ffb0090424ba4cb05370a42ead6b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  opaqueRenderQueue: 0
+  transparentRenderQueue: 1
 --- !u!114 &8926484042661621152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12039,8 +12043,7 @@ MonoBehaviour:
   - {fileID: 8926484042661621438}
   - {fileID: 8926484042661621442}
   - {fileID: 8926484042661621443}
-  m_Subgraph: {fileID: 5371698745253816930, guid: 852afa3b1625be840a8f98ff07a63de6,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: 852afa3b1625be840a8f98ff07a63de6, type: 3}
 --- !u!114 &8926484042661621432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13654,8 +13657,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_Disabled: 0
   m_ActivationSlot: {fileID: 8926484042661621502}
-  m_Subgraph: {fileID: 5371698748595113096, guid: 8d13b5ae003eda44d8a6fc0082f09200,
-    type: 3}
+  m_Subgraph: {fileID: 5371698748595113096, guid: 8d13b5ae003eda44d8a6fc0082f09200, type: 3}
 --- !u!114 &8926484042661621481
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -3671,6 +3671,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 081ffb0090424ba4cb05370a42ead6b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  opaqueRenderQueue: 0
+  transparentRenderQueue: 1
 --- !u!114 &8926484042661619476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4179,8 +4187,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_Disabled: 0
   m_ActivationSlot: {fileID: 8926484042661619711}
-  m_Subgraph: {fileID: 5371698748595113096, guid: 02977d84655036c47b22295d92bf646e,
-    type: 3}
+  m_Subgraph: {fileID: 5371698748595113096, guid: 02977d84655036c47b22295d92bf646e, type: 3}
 --- !u!114 &8926484042661619503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4248,8 +4255,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_Disabled: 0
   m_ActivationSlot: {fileID: 8926484042661619712}
-  m_Subgraph: {fileID: 5371698748595113096, guid: 38a3df4f559843e4bbaa369e8d41cdc4,
-    type: 3}
+  m_Subgraph: {fileID: 5371698748595113096, guid: 38a3df4f559843e4bbaa369e8d41cdc4, type: 3}
 --- !u!114 &8926484042661619505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4829,8 +4835,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_Disabled: 0
   m_ActivationSlot: {fileID: 8926484042661619719}
-  m_Subgraph: {fileID: 5371698748595113096, guid: 9ac7db2b780cf8e40a2a892ffc7f2853,
-    type: 3}
+  m_Subgraph: {fileID: 5371698748595113096, guid: 9ac7db2b780cf8e40a2a892ffc7f2853, type: 3}
 --- !u!114 &8926484042661619586
 MonoBehaviour:
   m_ObjectHideFlags: 0

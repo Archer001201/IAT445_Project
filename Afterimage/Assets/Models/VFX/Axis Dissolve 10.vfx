@@ -16,17 +16,17 @@ MonoBehaviour:
   stickyNoteInfos: []
   categories:
   - name: Dissolve Settings
-    collapsed: 1
+    collapsed: 0
   - name: Other
     collapsed: 0
   - name: Visuals
     collapsed: 0
   uiBounds:
     serializedVersion: 2
-    x: -2088
+    x: -2089
     y: -1663
-    width: 1514
-    height: 3246
+    width: 1516
+    height: 3247
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3840,7 +3840,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:

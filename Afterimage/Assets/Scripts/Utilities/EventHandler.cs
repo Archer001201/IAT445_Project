@@ -14,11 +14,11 @@ namespace Utilities
             onGlassesStateChange?.Invoke(objIsVisible);
         }
 
-        public static Action<List<DialoguePiece>> onDialogue;
+        public static Action<DialogueProvider> onDialogue;
 
-        public static void Dialogue(List<DialoguePiece> pieces)
+        public static void Dialogue(DialogueProvider provider)
         {
-            onDialogue?.Invoke(pieces);
+            onDialogue?.Invoke(provider);
         }
     }
 }

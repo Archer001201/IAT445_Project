@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using EventHandler = Utilities.EventHandler;
 
 namespace DialogueSystem
@@ -8,7 +9,9 @@ namespace DialogueSystem
     public class DialogueProvider : MonoBehaviour
     {
         public bool triggerOnce = true;
+        public bool canMove;
         public List<DialoguePiece> dialoguePieces;
+        public UnityEvent onFinishedEvent;
 
         private void Awake()
         {
@@ -18,7 +21,7 @@ namespace DialogueSystem
         private void OnTriggerEnter(Collider other)
         {
             if (!other.CompareTag("Player")) return;
-            EventHandler.Dialogue(dialoguePieces);
+            EventHandler.Dialogue(this);
             if (triggerOnce) gameObject.SetActive(false);
         }
     }

@@ -261,7 +261,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Burn_Color: {r: 63.25359, g: 6.292242, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DissolveColor: {r: 14.754423, g: 3.476173, b: 0, a: 1}
+    - _DissolveColor: {r: 21.234806, g: 13.972794, b: 3.4055789, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _Ember_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

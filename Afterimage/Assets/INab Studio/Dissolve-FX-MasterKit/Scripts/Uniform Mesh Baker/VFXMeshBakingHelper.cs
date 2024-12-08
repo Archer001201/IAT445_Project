@@ -1,6 +1,6 @@
 using System;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.VFX;
 
@@ -20,7 +20,7 @@ namespace UnityEngine.VFX
 
 }
 
-namespace INab.Dissolve
+namespace INab.CommonVFX
 {
     /// <summary>
     /// Cache of mesh data

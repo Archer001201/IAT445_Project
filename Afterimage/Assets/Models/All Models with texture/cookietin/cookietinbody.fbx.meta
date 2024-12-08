@@ -3,7 +3,12 @@ guid: 0c9f6db7444660e4ebeb2fc2a7dfb1f3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cookietinbody_BAKED
+    second: {fileID: 2100000, guid: dfdb8fc30bb9e384397a19a956d58010, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

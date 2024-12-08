@@ -604,6 +604,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1532383417}
+    - targetCorrespondingSourceObject: {fileID: 6549980035440210037, guid: 5c9438e12d91dfe4eb8c39dead753db2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1532383418}
   m_SourcePrefab: {fileID: 100100000, guid: 5c9438e12d91dfe4eb8c39dead753db2, type: 3}
 --- !u!43 &67815572
 Mesh:
@@ -11610,7 +11614,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
     - _ToLightDir: {r: -0.19014144, g: 0.7864062, b: -0.58771724, a: 0}
-    - _WindDirection: {r: 0.01631556, g: 0.01087704, b: 0, a: 2.472136}
+    - _WindDirection: {r: 2.2596486, g: 1.5064316, b: 0, a: 262.66446}
   m_BuildTextureStacks: []
 --- !u!1 &536848290
 GameObject:
@@ -18219,7 +18223,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
     - _ToLightDir: {r: 0.010316448, g: 0.58154875, b: 0.8134462, a: 0}
-    - _WindDirection: {r: 0.01631556, g: 0.01087704, b: 0, a: 2.472136}
+    - _WindDirection: {r: 2.2596486, g: 1.5064316, b: 0, a: 262.66446}
   m_BuildTextureStacks: []
 --- !u!1 &871282267
 GameObject:
@@ -20589,7 +20593,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0.7, g: 0.3, b: 0, a: 0}
     - _ToLightDir: {r: -0.97246087, g: -0.080882445, b: 0.21858262, a: 0}
-    - _WindDirection: {r: 0.01631556, g: 0.01087704, b: 0, a: 2.472136}
+    - _WindDirection: {r: 2.2596486, g: 1.5064316, b: 0, a: 262.66446}
   m_BuildTextureStacks: []
 --- !u!1001 &952601183
 PrefabInstance:
@@ -53902,6 +53906,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1532383418}
+        m_TargetAssemblyTypeName: Utilities.BgmProvider, Assembly-CSharp
+        m_MethodName: PlayMusic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   targetObject: {fileID: 1048860028}
   attachTransform: {fileID: 851071}
 --- !u!65 &1532383417
@@ -53925,6 +53941,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.35, y: 0.1, z: 0.36}
   m_Center: {x: 0.07, y: 0.04, z: 0.04}
+--- !u!114 &1532383418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532383415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8980eb7dc9f7914fa194aedae664469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: {fileID: 8300000, guid: a58cc6ed60e519c48a5fd1871883adc6, type: 3}
 --- !u!1 &1533305311 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2265211481680741081, guid: 97d5ec2098013934bb7e8de14095cfa8,

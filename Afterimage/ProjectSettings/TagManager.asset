@@ -11,6 +11,8 @@ TagManager:
   - GlassesTrigger
   - CameraAndAlbum
   - Locomotion
+  - Box
+  - Trail
   layers:
   - Default
   - TransparentFX

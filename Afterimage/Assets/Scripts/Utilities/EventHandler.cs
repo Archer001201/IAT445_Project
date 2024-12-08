@@ -20,5 +20,12 @@ namespace Utilities
         {
             onDialogue?.Invoke(provider);
         }
+
+        public static Action<AudioClip> onPlayerBgm;
+
+        public static void PlayBgm(AudioClip clip)
+        {
+            onPlayerBgm?.Invoke(clip);
+        }
     }
 }

@@ -1859,7 +1859,7 @@ PrefabInstance:
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.65
+      value: 2.67
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
@@ -1869,7 +1869,7 @@ PrefabInstance:
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.8
+      value: -15.34
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
@@ -3477,8 +3477,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf7ae100c1f24d8d85357d01c01b5a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playInEditor: 0
-  initializePosition: 1
+  playInEditor: 1
+  initializePosition: 0
   currentSceneIndex: 0
   sceneList:
   - Tutorial_Prototype

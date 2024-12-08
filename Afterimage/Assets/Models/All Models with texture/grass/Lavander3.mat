@@ -76,7 +76,6 @@ Material:
     - _WorkflowMode: 0
     - _ZWrite: 1
     m_Colors:
-    - _Bottom_Color: {r: 0.21960784, g: 0, b: 0.8930817, a: 0}
+    - _Bottom_Color: {r: 0.6058948, g: 0, b: 0.8930817, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _NearColor: {r: 0, g: 1, b: 0.24159908, a: 0}
   m_BuildTextureStacks: []

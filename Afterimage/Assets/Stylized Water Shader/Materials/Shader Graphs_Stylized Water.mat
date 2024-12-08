@@ -79,7 +79,7 @@ Material:
     - _Surface_Foam_Cutoff: 0.131
     - _Surface_Foam_Direction: 0.259
     - _Surface_Foam_Distortion: 0.94
-    - _Surface_Foam_Speed: 0
+    - _Surface_Foam_Speed: 0.846
     - _Surface_Foam_Tiling: 84.8
     - _Wave_Length: 2.8
     - _Wave_Speed: 0.57

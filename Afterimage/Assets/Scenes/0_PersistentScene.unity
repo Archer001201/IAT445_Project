@@ -2741,20 +2741,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Blurry Photos: The content of the photos is unclear, with only the shapes
-    and colors of objects distinguishable. Players must restore the scene in the
-    photo and take a picture to unlock new photos.
-
-
-    Clear Photos: The content
-    of the photos is clear but differs slightly from the current game scene. Players
-    need to use the camera to capture the corresponding scene in the photo to generate
-    or remove objects.
-
-
-    Faded Photo: The photo content is clear but has a faded
-    filter. Players can use the camera to photograph the corresponding object to
-    restore it.'
+  m_text: "<color=#4A90E2><b>Blurry Photos:</b></color> Players must recreate the
+    scene depicted in the photo and take a picture to unlock new photos.\r\n\r\n<color=#7ED321><b>Clear
+    Photos:</b></color> Players need to use the camera to capture the corresponding
+    scene in order to generate objects.\r\n\r\n<color=#F5A623><b>Faded Photos:</b></color>
+    Players can use the camera to photograph the corresponding object to restore
+    it to its original state.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

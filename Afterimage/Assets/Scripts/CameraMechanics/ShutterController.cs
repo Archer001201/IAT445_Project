@@ -15,7 +15,7 @@ namespace CameraMechanics
         
         private AudioSource audioSource;
         private bool canCapture;
-        private bool _canUpdate;
+        private bool _canUpdate = true;
         [SerializeField] private CaptureEvent captureEvent;
 
         private void Awake()

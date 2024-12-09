@@ -21,7 +21,6 @@ namespace Utilities
             if (findMaterial)
             {
                 _dissolver.FindMaterialsInChildren();
-                _dissolver.StopAllCoroutines();
             }
             // _collider = target.GetComponent<Collider>();
         }

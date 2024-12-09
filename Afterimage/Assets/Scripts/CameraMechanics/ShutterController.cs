@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using EventHandler = Utilities.EventHandler;
 
 namespace CameraMechanics
 {
@@ -14,6 +15,7 @@ namespace CameraMechanics
         
         private AudioSource audioSource;
         private bool canCapture;
+        private bool _canUpdate;
         [SerializeField] private CaptureEvent captureEvent;
 
         private void Awake()
@@ -22,10 +24,20 @@ namespace CameraMechanics
             // screenOutliner.SetActive(false);
         }
 
+        private void OnEnable()
+        {
+            EventHandler.onCameraUpdate += CameraUpdate;
+        }
+
+        private void OnDisable()
+        {
+            EventHandler.onCameraUpdate -= CameraUpdate;
+        }
+
         private void Update()
         {
             if (!isGrabbing) return;
-            
+            if (!_canUpdate) return;
             var rayOrigin = virtualCamera.transform.position;
             var rayDirection = virtualCamera.transform.forward;
 
@@ -87,6 +99,11 @@ namespace CameraMechanics
         public void SetIsGrabbing(bool result)
         {
             isGrabbing = result;
+        }
+
+        private void CameraUpdate(bool canUpdate)
+        {
+            _canUpdate = canUpdate;
         }
     }
 }

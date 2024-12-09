@@ -21,6 +21,7 @@ namespace DialogueSystem
 
         private void Awake()
         {
+            contentText.text = string.Empty;
             audioSource = GetComponent<AudioSource>();
             locomotion = GameObject.FindWithTag("Locomotion").GetComponent<CustomLocomotion>();
         }
@@ -53,6 +54,8 @@ namespace DialogueSystem
             dialoguePanel.SetActive(true);
             locomotion.SetMovement(provider.canMove);
             provider.onStartedEvent?.Invoke();
+            EventHandler.CameraUpdate(false);
+            yield return new WaitForSeconds(provider.waitBeforeAudioStart);
             foreach (var piece in provider.dialoguePieces)
             {
                 // yield return new WaitForSeconds(0.5f);
@@ -62,6 +65,7 @@ namespace DialogueSystem
                 yield return new WaitUntil(() => !audioSource.isPlaying);
             }
             provider.onFinishedEvent?.Invoke();
+            EventHandler.CameraUpdate(true);
             dialoguePanel.SetActive(false);
             locomotion.SetMovement(true);
             StopDialogueCoroutine();

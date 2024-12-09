@@ -13,6 +13,7 @@ namespace DialogueSystem
         public List<DialoguePiece> dialoguePieces;
         public UnityEvent onStartedEvent;
         public UnityEvent onFinishedEvent;
+        public float waitBeforeAudioStart;
 
         private void Awake()
         {
@@ -23,6 +24,7 @@ namespace DialogueSystem
         {
             if (!other.CompareTag("Player")) return;
             EventHandler.Dialogue(this);
+            // EventHandler.CameraUpdate(false);
             if (triggerOnce) gameObject.SetActive(false);
         }
     }

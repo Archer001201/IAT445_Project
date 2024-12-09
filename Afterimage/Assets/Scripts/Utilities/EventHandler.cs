@@ -27,5 +27,12 @@ namespace Utilities
         {
             onPlayerBgm?.Invoke(clip);
         }
+
+        public static Action<bool> onCameraUpdate;
+
+        public static void CameraUpdate(bool canUpdate)
+        {
+            onCameraUpdate?.Invoke(canUpdate);
+        }
     }
 }

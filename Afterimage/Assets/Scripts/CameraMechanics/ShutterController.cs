@@ -103,7 +103,7 @@ namespace CameraMechanics
 
         private void CameraUpdate(bool canUpdate)
         {
-            _canUpdate = canUpdate;
+            // _canUpdate = canUpdate;
         }
     }
 }

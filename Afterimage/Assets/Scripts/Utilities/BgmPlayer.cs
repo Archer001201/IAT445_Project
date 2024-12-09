@@ -25,6 +25,7 @@ namespace Utilities
         private void PlayBgm(AudioClip clip)
         {
             if (_audioSource.clip) _audioSource.Pause();
+            if (clip == null) _audioSource.Pause();
             _audioSource.clip = clip;
             _audioSource.loop = true;
             _audioSource.Play();

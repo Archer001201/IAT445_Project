@@ -10,6 +10,7 @@ namespace Utilities
     {
         public GameObject target;
         public bool isHided;
+        public bool findMaterial;
         private Coroutine _vfxCoroutine;
         private Dissolver _dissolver;
         // private Collider _collider;
@@ -17,6 +18,11 @@ namespace Utilities
         private void Awake()
         {
             _dissolver = GetComponent<Dissolver>();
+            if (findMaterial)
+            {
+                _dissolver.FindMaterialsInChildren();
+                _dissolver.StopAllCoroutines();
+            }
             // _collider = target.GetComponent<Collider>();
         }
 

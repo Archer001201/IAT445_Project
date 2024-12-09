@@ -60,9 +60,16 @@ namespace DialogueSystem
             {
                 // yield return new WaitForSeconds(0.5f);
                 contentText.text = piece.content;
-                audioSource.clip = piece.audioClip;
-                audioSource.Play();
-                yield return new WaitUntil(() => !audioSource.isPlaying);
+                if (piece.audioClip)
+                {
+                    audioSource.clip = piece.audioClip;
+                    audioSource.Play();
+                    yield return new WaitUntil(() => !audioSource.isPlaying);  
+                }
+                else
+                {
+                    yield return new WaitForSeconds(5);
+                }
             }
             provider.onFinishedEvent?.Invoke();
             EventHandler.CameraUpdate(true);

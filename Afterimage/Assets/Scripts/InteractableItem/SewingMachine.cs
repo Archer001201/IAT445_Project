@@ -32,6 +32,7 @@ namespace InteractableItem
             {
                 paddlePlaced = true;
                 paddle.SetActive(false);
+                Destroy(paddle);
                 paddleOnDesk.SetActive(true);
                 AllPlaced();
             }
@@ -40,6 +41,7 @@ namespace InteractableItem
             {
                 clothPlaced = true;
                 cloth.SetActive(false);
+                Destroy(cloth);
                 clothOnDesk.SetActive(true);
                 AllPlaced();
             }

@@ -28,7 +28,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Base_Texture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 8400000, guid: 9f4b6d1b611a14c4498de2e23bd50aa5, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GuideTexture:
@@ -60,13 +60,13 @@ Material:
     - _DrawOrder: 9
     - _EdgeWidth: 0.0075
     - _GuideAdjuster: 1
-    - _GuideTilling: 1.83
+    - _GuideTilling: 1.43
     - _TRIPLANAR_SPACE: 0
     - _USE_DISSOLVE: 1
     - _USE_TRIPLANAR_UVS: 0
     - _UV_CHANNEL: 0
     m_Colors:
-    - _Color: {r: 0.4009434, g: 0.83352363, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _DissolveColor: {r: 0.26899412, g: 3.8331661, b: 12.844469, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &6787111597996751266

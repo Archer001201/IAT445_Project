@@ -20,13 +20,15 @@ namespace CameraMechanics
         {
             rb = GetComponent<Rigidbody>();
 
-            cameraTransform = GameObject.FindWithTag("MainCamera").transform;
-            playerCollider = GameObject.FindWithTag("Player").GetComponent<Collider>();
+            // cameraTransform = GameObject.FindWithTag("MainCamera").transform;
+            // playerCollider = GameObject.FindWithTag("Player").GetComponent<Collider>();
             itemCollider = GetComponent<Collider>();
         }
 
         private void Start()
         {
+            cameraTransform = GameObject.FindWithTag("MainCamera").transform;
+            playerCollider = GameObject.FindWithTag("Player").GetComponent<Collider>();
             Physics.IgnoreCollision(itemCollider,playerCollider,true);
         }
 

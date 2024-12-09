@@ -32,7 +32,7 @@ namespace CameraMechanics
             Physics.IgnoreCollision(itemCollider,playerCollider,true);
         }
 
-        private void Update()
+        protected virtual void Update()
         {
             if (!allowAttach) return;
             
@@ -50,8 +50,9 @@ namespace CameraMechanics
         protected virtual void OnCollisionEnter(Collision other)
         {
             if (!allowAttach) return;
-            
+   
             if (isGrabbed) return;
+            allowAttach = true;
             isCarried = true;
             rb.useGravity = false;
             rb.isKinematic = true;
@@ -78,6 +79,12 @@ namespace CameraMechanics
         {
             if (allowAttach) return;
             allowAttach = true;
+        }
+        
+        public void UncheckAllowAttach()
+        {
+            if (!allowAttach) return;
+            allowAttach = false;
         }
     }
 }

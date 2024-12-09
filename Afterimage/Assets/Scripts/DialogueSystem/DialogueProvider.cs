@@ -11,6 +11,7 @@ namespace DialogueSystem
         public bool triggerOnce = true;
         public bool canMove;
         public List<DialoguePiece> dialoguePieces;
+        public UnityEvent onStartedEvent;
         public UnityEvent onFinishedEvent;
 
         private void Awake()

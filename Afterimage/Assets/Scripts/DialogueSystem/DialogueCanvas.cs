@@ -52,6 +52,7 @@ namespace DialogueSystem
         {
             dialoguePanel.SetActive(true);
             locomotion.SetMovement(provider.canMove);
+            provider.onStartedEvent?.Invoke();
             foreach (var piece in provider.dialoguePieces)
             {
                 // yield return new WaitForSeconds(0.5f);
